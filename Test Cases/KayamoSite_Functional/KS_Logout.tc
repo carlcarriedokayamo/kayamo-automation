@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test is to validate the logout functionality</description>
+   <name>KS_Logout</name>
+   <tag>logout</tag>
+   <comment></comment>
+   <testCaseGuid>683dc476-b7ca-4e69-b710-0a66d3f66e5f</testCaseGuid>
+</TestCaseEntity>

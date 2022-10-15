@@ -1,0 +1,33 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Home_Page/Menu_Log In _Sign Up",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Log In / Sign Up\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Home_Page/Menu_Log In _Sign Up_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Profile_Page/Profile_Name",
+      "brokenLocator": "//*[@class \u003d \u0027username\u0027 and @data-id \u003d \u002744113\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Profile_Page/Profile_Name_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Desktop_Home_Page/Menu_Log In _Sign Up",
+      "brokenLocator": "/html[1]/body[1]/div[@class\u003d\"container\"]/div[@class\u003d\"header\"]/div[@class\u003d\"wrapper\"]/ul[@class\u003d\"menu pc-show clearfix\"]/li[@class\u003d\"loginin\"]/a[1][count(. | //*[(text() \u003d \u0027Log In / Sign Up\u0027 or . \u003d \u0027Log In / Sign Up\u0027) and @class \u003d \u0027loginin\u0027]) \u003d count(//*[(text() \u003d \u0027Log In / Sign Up\u0027 or . \u003d \u0027Log In / Sign Up\u0027) and @class \u003d \u0027loginin\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Log In / Sign Up\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Accept_Terms_Conditions</name>
+   <tag></tag>
+   <elementGuidId>2b1163db-bb7f-4945-8efd-a871ebd4a183</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn_accept</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'I ACCEPT' or . = 'I ACCEPT')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick='accept()']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8d6c2222-aca3-4d14-a218-a7391a8b2c3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+      <webElementGuid>5e788dde-b036-42ca-8f22-f8d6944012ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>accept()</value>
+      <webElementGuid>94d99d02-b7a1-45f0-9399-82a5945e7ed0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn_accept</value>
+      <webElementGuid>d9375ec1-3a56-4330-9675-eab6ff74fa28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I ACCEPT</value>
+      <webElementGuid>c68a89e9-6cb8-4d3a-83b7-e5493a747d1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container&quot;]/div[@class=&quot;laymshade&quot;]/div[@class=&quot;terms-box&quot;]/div[@class=&quot;tc&quot;]/a[@class=&quot;btn btn_accept&quot;]</value>
+      <webElementGuid>9d4910e0-4799-4b1e-885b-04a81a1d5dce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick='accept()']</value>
+      <webElementGuid>40a7efcd-aa83-4193-929e-cb84785d0ce6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'I ACCEPT')]</value>
+      <webElementGuid>356dd8f1-0997-4913-97cb-6d67ce026fdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to lazada to authorize'])[1]/following::a[2]</value>
+      <webElementGuid>71b179fa-59de-479c-ba7d-9bad614f374c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get in touch:'])[1]/preceding::a[1]</value>
+      <webElementGuid>c18dca38-0bca-40bb-8beb-8fde137f7a8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Securities and Exchange Commission:'])[1]/preceding::a[1]</value>
+      <webElementGuid>9e6e1733-c11b-42fe-acbd-e1a821523599</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='I ACCEPT']/parent::*</value>
+      <webElementGuid>cee31e50-1e8d-4f7f-b5b0-433d121c55f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:void(0)')])[3]</value>
+      <webElementGuid>9d6fe1f6-2304-4c21-ac38-4bac86c6dd61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div/div/a</value>
+      <webElementGuid>6dccb5bd-fcf0-433f-bdb5-adede625ea9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:void(0)' and (text() = 'I ACCEPT' or . = 'I ACCEPT')]</value>
+      <webElementGuid>a922b486-3ff9-4acb-b8e3-8a175840647c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

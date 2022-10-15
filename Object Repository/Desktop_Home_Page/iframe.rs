@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iframe</name>
+   <tag></tag>
+   <elementGuidId>bf1b1109-b152-4cdd-8d64-65b8899f97b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>iframe[title=&quot;chat widget&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hubspot-messages-iframe-container']/iframe</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>iframe</value>
+      <webElementGuid>cdbf14d5-1fe0-4037-94c4-3bca64a56453</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://app-eu1.hubspot.com/conversations-visitor/26227313/threads/utk/f9ae8777533e403ab9dc9a57e67f219d?uuid=f9b1d2c5a89f467388ebddf47e42d3e7&amp;mobile=false&amp;mobileSafari=false&amp;hideWelcomeMessage=false&amp;hstc=null&amp;domain=uat.kayamo.com.ph&amp;inApp53=false&amp;messagesUtk=f9ae8777533e403ab9dc9a57e67f219d&amp;url=https%3A%2F%2Fuat.kayamo.com.ph%2F&amp;inline=false&amp;isFullscreen=false&amp;globalCookieOptOut=null&amp;isFirstVisitorSession=true&amp;isAttachmentDisabled=false&amp;enableWidgetCookieBanner=false&amp;isInCMS=false</value>
+      <webElementGuid>57df0cf8-4638-4b5b-8a93-f86a5bc3dfd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>chat widget</value>
+      <webElementGuid>e0460170-d7d5-4561-a178-9851b47f6cc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hubspot-messages-iframe-container&quot;)/iframe[1]</value>
+      <webElementGuid>cb0b072d-de40-4002-a011-0aee3f0d4e94</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hubspot-messages-iframe-container']/iframe</value>
+      <webElementGuid>f81c2a3a-2d5b-47a7-a97b-36074d4102ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/iframe</value>
+      <webElementGuid>e570520c-b085-4892-805c-741c319d0d94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//iframe[@src = 'https://app-eu1.hubspot.com/conversations-visitor/26227313/threads/utk/f9ae8777533e403ab9dc9a57e67f219d?uuid=f9b1d2c5a89f467388ebddf47e42d3e7&amp;mobile=false&amp;mobileSafari=false&amp;hideWelcomeMessage=false&amp;hstc=null&amp;domain=uat.kayamo.com.ph&amp;inApp53=false&amp;messagesUtk=f9ae8777533e403ab9dc9a57e67f219d&amp;url=https%3A%2F%2Fuat.kayamo.com.ph%2F&amp;inline=false&amp;isFullscreen=false&amp;globalCookieOptOut=null&amp;isFirstVisitorSession=true&amp;isAttachmentDisabled=false&amp;enableWidgetCookieBanner=false&amp;isInCMS=false' and @title = 'chat widget']</value>
+      <webElementGuid>457590a9-f76f-4706-91bb-cda7c33bd401</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>promotion_Alert</name>
+   <tag></tag>
+   <elementGuidId>3511ba37-801f-403b-a041-6c823ad9751c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layui-layer1']/span/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'layui-layer-ico layui-layer-close layui-layer-close1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.layui-layer-ico.layui-layer-close.layui-layer-close1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>66791c0e-e78c-489d-98b3-35f3bad606ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>layui-layer-ico layui-layer-close layui-layer-close1</value>
+      <webElementGuid>848671b6-3c07-40be-911e-973c75abe4ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:;</value>
+      <webElementGuid>378c7060-6bc5-4459-97c3-4368b4b3e3d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layui-layer1&quot;)/span[@class=&quot;layui-layer-setwin&quot;]/a[@class=&quot;layui-layer-ico layui-layer-close layui-layer-close1&quot;]</value>
+      <webElementGuid>ed2addf0-c759-4537-aa9f-96a2e8983228</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layui-layer1']/span/a</value>
+      <webElementGuid>fdee042e-3ae2-4adf-aa69-120fa57bf586</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:;')]</value>
+      <webElementGuid>85bfe72e-f59a-4308-9728-6925daea516a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/a</value>
+      <webElementGuid>1376ded6-7e32-4a5e-b572-ab57cf456e16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:;']</value>
+      <webElementGuid>36d48985-09e0-4fc3-bfb6-d32d8bc9fb4b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

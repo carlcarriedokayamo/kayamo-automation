@@ -1,0 +1,82 @@
+/* Author: Carlito Carriedo
+ * Created Date: October 11, 2022
+ * Description: Test case for logging in Kayamo site
+ */
+
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(url)
+
+WebUI.waitForElementVisible(findTestObject('Desktop_Home_Page/promotion_Alert'), 0)
+
+WebUI.click(findTestObject('Desktop_Home_Page/promotion_Alert'))
+
+WebUI.waitForElementVisible(findTestObject('Desktop_Home_Page/menu_Login_or_Signup'), 0)
+
+WebUI.click(findTestObject('Desktop_Home_Page/menu_Login_or_Signup'))
+
+WebUI.waitForElementVisible(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_mobile_number'), 0)
+
+WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_mobile_number'), phone_number)
+
+WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP1'))
+
+WebUI.setText(findTestObject('Desktop_Profile_Page/input_Log In  Sign Up_verification_code'), verification_code1)
+
+WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP2'))
+
+WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_verification_code'), verification_code2)
+
+WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP3'))
+
+WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_verification_code'), verification_code3)
+
+WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP4'))
+
+WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_verification_code'), verification_code4)
+
+WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP5'))
+
+WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_verification_code'), verification_code5)
+
+WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP6'))
+
+WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_verification_code'), verification_code6)
+
+WebUI.click(findTestObject('Desktop_Home_Page/Checkbox_I agree with the terms of use of Kayamo'))
+
+WebUI.click(findTestObject('Desktop_Home_Page/Button_Accept_Terms_Conditions'))
+
+WebUI.click(findTestObject('Desktop_Home_Page/Button_Log In Sign Up'))
+
+WebUI.verifyElementPresent(findTestObject('Desktop_Profile_Page/Icon_Profile'), 0)
+
+WebUI.click(findTestObject('Desktop_Profile_Page/Icon_Profile'))
+
+WebUI.verifyElementText(findTestObject('Desktop_Profile_Page/Profile_Name'), profile_name)
+
+WebUI.verifyElementText(findTestObject('Desktop_Profile_Page/Profile_PhoneNumber'), profile_phone_number)
+
+WebUI.takeScreenshot()
+

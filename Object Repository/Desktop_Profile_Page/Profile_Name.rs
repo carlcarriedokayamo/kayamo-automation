@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Profile_Name</name>
+   <tag></tag>
+   <elementGuidId>3609c8b1-6342-43f0-8a65-7cf9109dec7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='How to pay for your loan?'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'username']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.username</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7df3a0af-51f0-4caa-85d8-4d1c33eca7f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>573d091b-af85-4c20-8d05-3ac52a2d0eba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>44113</value>
+      <webElementGuid>273d8a63-33a5-4045-a674-abacc04aa31a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> FirstnameDummy MiddlenameDummy LastnameDummy</value>
+      <webElementGuid>c19da357-05c9-46cf-a0a9-99b50cf588ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;body-bg&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;wrapper person&quot;]/div[@class=&quot;part01 clearfix&quot;]/div[@class=&quot;col-sm-12 col-lg-4 wap-mb20&quot;]/div[@class=&quot;part01-txt&quot;]/div[1]/span[@class=&quot;username&quot;]</value>
+      <webElementGuid>6235321a-7e3c-470e-a581-e4b0c36dc7a4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How to pay for your loan?'])[1]/following::span[1]</value>
+      <webElementGuid>0cf04d5b-42dd-42b9-bdaa-e46c823b04a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lv.Max'])[1]/preceding::span[1]</value>
+      <webElementGuid>e5aa6e7f-79f6-44ce-a874-556efbe15d4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone Number : +63 9174432720'])[1]/preceding::span[2]</value>
+      <webElementGuid>b60db49b-f866-4492-bd76-08cb614c55d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='FirstnameDummy MiddlenameDummy LastnameDummy']/parent::*</value>
+      <webElementGuid>664c5242-4907-4b01-90e1-0d2f47c40cd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>323ac90b-d470-4f23-bf0b-00ddb9ee2e9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' FirstnameDummy MiddlenameDummy LastnameDummy' or . = ' FirstnameDummy MiddlenameDummy LastnameDummy')]</value>
+      <webElementGuid>2de067d7-60ce-4090-a1ef-79d45f8821e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

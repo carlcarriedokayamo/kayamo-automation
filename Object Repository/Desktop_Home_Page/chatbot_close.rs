@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>chatbot_close</name>
+   <tag></tag>
+   <elementGuidId>6ee34a48-85ee-43b8-9e20-6d0670f3b9a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>svg.conversations-visitor-close-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='live chat'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>390edd66-352d-4b11-85c9-f34014697c19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>4c57f77a-35d3-43aa-b92c-fc10c89f401b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>e2c7bc52-b37b-46a2-b251-ef8771231368</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>16daad57-08a2-48c1-9491-61c8a6682ca5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 19 18</value>
+      <webElementGuid>106f6210-dc9d-44c7-826d-7f86f6e0373a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>conversations-visitor-close-icon</value>
+      <webElementGuid>be545dba-103e-4ece-951f-8c3debe1cb8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;lang-en&quot;]/body[@class=&quot;hubspot messages-body&quot;]/div[@class=&quot;widget&quot;]/div[@class=&quot;Application__WidgetAppContainer-sc-1f2l0a1-0 dvBAhE widget-app-container&quot;]/span[@class=&quot;p-top-5 display-flex p-left-6 launcher-right-align&quot;]/div[@class=&quot;VizExNotificationBadge__Wrapper-lugo7o-0 ixXkAM&quot;]/button[@class=&quot;IconLauncher__BaseLauncher-sc-1y5beua-0 IconLauncher__CircleLauncher-sc-1y5beua-2 fWGgvX reagan--widget-loaded undefined&quot;]/div[1]/div[@class=&quot;TwistFadeTransition__TransitionComponent-sc-14kwu4-0 cUvIBn&quot;]/div[@class=&quot;IconLauncher__LauncherIcon-sc-1y5beua-3 ePsMGT&quot;]/svg[@class=&quot;conversations-visitor-close-icon&quot;]</value>
+      <webElementGuid>bd03b044-6538-465a-b6f5-52624c18fba2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Desktop_Home_Page/iframe</value>
+      <webElementGuid>7cbb8940-6eaa-48b2-bcac-7731f02625bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='live chat'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>67fcbe26-c9ea-4d29-a22e-2bb78a227d4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

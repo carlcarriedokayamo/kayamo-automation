@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>BackOffice_Dataset</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>2380b9d4-fbc8-4a1d-a5e7-25c329e86236</dataFileGUID>
+   <dataSourceUrl>/Users/carlcarriedo/Documents/Katalon Automation/Kayamo Automation/Data Files/BackOffice_Dataset/BackOffice_Dataset.xls</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>BackOffice_Functional_Tests</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

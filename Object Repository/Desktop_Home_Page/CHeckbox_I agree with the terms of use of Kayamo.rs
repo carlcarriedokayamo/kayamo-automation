@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_I agree with the terms of use of Kayamo</name>
+   <tag></tag>
+   <elementGuidId>791faed6-a796-4ea3-9dd1-bda825241774</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='clickTerm']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;clickTerm&quot;)</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#clickTerm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>11325ffa-3cff-4cae-a7dd-5099979fb2d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>clickTerm</value>
+      <webElementGuid>eed6d115-84b3-46de-80ef-c160da75589b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+        	 I agree with the terms of use  of Kayamo.</value>
+      <webElementGuid>73c7cb2f-62eb-4efb-af4e-e49b0ceeaf02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;clickTerm&quot;)</value>
+      <webElementGuid>aa988dc9-89d7-4f5c-a39d-13af25e53f83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='clickTerm']</value>
+      <webElementGuid>56f6027d-f523-4f4a-a8ed-42908985a923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='post_login']/div[3]/label</value>
+      <webElementGuid>35c8e511-5d5f-4147-b4e1-02edad2b1c71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Code'])[1]/following::label[1]</value>
+      <webElementGuid>1b0dc5f4-2a16-47b6-a1f9-4ea70a45c694</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log In / Sign Up'])[3]/following::label[2]</value>
+      <webElementGuid>b8cc0119-6735-4c13-aa25-842c3f566126</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log In / Sign Up'])[4]/preceding::label[3]</value>
+      <webElementGuid>d3f23e94-a87c-46dd-b694-0dbe4f0fd54c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='I agree with the']/parent::*</value>
+      <webElementGuid>02092cd0-8995-4490-9b20-724ee680a984</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/label</value>
+      <webElementGuid>23f4bc60-2c89-4cad-a635-3a67590ebe1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'clickTerm' and (text() = '
+        	 I agree with the terms of use  of Kayamo.' or . = '
+        	 I agree with the terms of use  of Kayamo.')]</value>
+      <webElementGuid>efaada0e-205d-4b6f-9fdc-460c83d82514</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

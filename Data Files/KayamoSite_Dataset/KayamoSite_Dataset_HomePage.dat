@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>KayamoSite_Dataset_HomePage</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>dc741e7c-5858-46ba-b677-1a62757c5306</dataFileGUID>
+   <dataSourceUrl>/Users/carlcarriedo/Documents/Katalon Automation/Kayamo Automation/Data Files/KayamoSite_Dataset/KayamoSite_Dataset_HomePage.xls</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>KS_Home_Page</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
