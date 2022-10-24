@@ -1,1 +1,1 @@
-# KayamoAutomation
+# kayamo-automation
