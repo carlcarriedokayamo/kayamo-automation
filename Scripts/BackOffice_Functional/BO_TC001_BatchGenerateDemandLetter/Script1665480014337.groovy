@@ -1,5 +1,5 @@
 /* Author: Carlito Carriedo
- * Created Date: October 7, 2022
+ * Initial create date: October 7, 2022
  * Description: Test case for https://kayamo.atlassian.net/browse/KS-231
  */
 
@@ -59,4 +59,3 @@ WebUI.takeScreenshot()
 CustomKeywords.'pdfKeywords.verifyFileDownloaded.checkFileDownloaded'(downloadPath, fileName)
 
 WebUI.delay(5)
-

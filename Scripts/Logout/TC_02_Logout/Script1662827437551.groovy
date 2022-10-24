@@ -17,10 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.mouseOver(findTestObject('Desktop_Profile_Page/Icon_Profile'))
+WebUI.mouseOver(findTestObject('KayamoSite_Profile_Page/Icon_Profile'))
 
-WebUI.click(findTestObject('Object Repository/Desktop_Profile_Page/submenu_Button_Log out'))
+WebUI.click(findTestObject('KayamoSite_Profile_Page/submenu_Button_Log out'))
 
-WebUI.click(findTestObject('Object Repository/Desktop_Profile_Page/Button_YES'))
+WebUI.click(findTestObject('KayamoSite_Profile_Page/Button_YES'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Desktop_Profile_Page/Menu_Login_or_Signup'), 0)
+WebUI.verifyElementPresent(findTestObject('KayamoSite_Profile_Page/Menu_Login_or_Signup'), 0)

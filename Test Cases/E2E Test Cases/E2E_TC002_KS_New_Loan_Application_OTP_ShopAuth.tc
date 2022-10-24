@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>End to end test case for new loan application for shop seller authorization</description>
+   <name>E2E_TC002_KS_New_Loan_Application_OTP_ShopAuth</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ad9d95a-5345-4dc7-abdd-07bfd31c1dae</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>34c18924-ded9-4c73-b2da-b7788d194ee8</id>
+      <masked>false</masked>
+      <name>seller_auth_otp</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9d2000e8-577e-4cd7-88fe-c3967e8a7b0c</id>
+      <masked>false</masked>
+      <name>seller_shop_username</name>
+   </variable>
+</TestCaseEntity>

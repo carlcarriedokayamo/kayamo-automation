@@ -10,116 +10,113 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>227c6901-cb6a-4ead-bf99-b2eed093f507</testSuiteGuid>
+   <testSuiteGuid>6c9a8add-227e-4f14-9ee9-27f0277a1dd4</testSuiteGuid>
    <testCaseLink>
-      <guid>a25f674d-488f-47b2-aa06-cb1e4606d2bc</guid>
+      <guid>8524a9d2-d603-456f-b872-68095c5a6ebe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BackOffice_Functional/BO_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>5ac6db9b-9958-4275-951a-def4c6bd6ea2</id>
+         <id>9d2025b7-362b-4be2-9d62-d214ed9cacd5</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
             <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/BackOffice_Dataset/BackOffice_Dataset</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>5ac6db9b-9958-4275-951a-def4c6bd6ea2</testDataLinkId>
+         <testDataLinkId>9d2025b7-362b-4be2-9d62-d214ed9cacd5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>8484b3a0-8dee-4449-aeef-fb76a8f8641b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5ac6db9b-9958-4275-951a-def4c6bd6ea2</testDataLinkId>
+         <testDataLinkId>9d2025b7-362b-4be2-9d62-d214ed9cacd5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>4a646262-e3f2-47f5-bb98-81c1095e9005</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5ac6db9b-9958-4275-951a-def4c6bd6ea2</testDataLinkId>
+         <testDataLinkId>9d2025b7-362b-4be2-9d62-d214ed9cacd5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>url</value>
          <variableId>584641b0-0379-414a-a936-7288f91b838b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5ac6db9b-9958-4275-951a-def4c6bd6ea2</testDataLinkId>
+         <testDataLinkId>9d2025b7-362b-4be2-9d62-d214ed9cacd5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>profile_name</value>
          <variableId>b7e44bdc-e41f-4a48-8ee2-43b5b00764e1</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5399d797-6ca0-4910-9952-8a35711e7afe</guid>
+      <guid>256114fd-22d8-4640-84f7-7ea944c0294b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BackOffice_Functional/BO_TC001_BatchGenerateDemandLetter</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>5f58285f-efdb-43cb-95b6-b843dee59777</id>
+         <id>8260002b-ba17-4ba8-a10f-91a70ca65ea9</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
             <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/BackOffice_Dataset/BackOffice_Dataset</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>5f58285f-efdb-43cb-95b6-b843dee59777</testDataLinkId>
+         <testDataLinkId>8260002b-ba17-4ba8-a10f-91a70ca65ea9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>loan_number</value>
          <variableId>94813088-6792-4e3c-ac1a-464cc2c937e1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5f58285f-efdb-43cb-95b6-b843dee59777</testDataLinkId>
+         <testDataLinkId>8260002b-ba17-4ba8-a10f-91a70ca65ea9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>mobile_number</value>
          <variableId>de2a4fa4-0d39-4355-873d-3f13b58f432e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5f58285f-efdb-43cb-95b6-b843dee59777</testDataLinkId>
+         <testDataLinkId>8260002b-ba17-4ba8-a10f-91a70ca65ea9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>select_status</value>
          <variableId>434376ca-df73-4227-88fb-e2e27286679b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5f58285f-efdb-43cb-95b6-b843dee59777</testDataLinkId>
+         <testDataLinkId>8260002b-ba17-4ba8-a10f-91a70ca65ea9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>status_boolean</value>
          <variableId>a212398f-19d6-42a6-8be9-111ea6a6833a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5f58285f-efdb-43cb-95b6-b843dee59777</testDataLinkId>
+         <testDataLinkId>8260002b-ba17-4ba8-a10f-91a70ca65ea9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>table_loan_number</value>
          <variableId>b07d16b6-42b9-403c-9288-bfcefcf0b11a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5f58285f-efdb-43cb-95b6-b843dee59777</testDataLinkId>
+         <testDataLinkId>8260002b-ba17-4ba8-a10f-91a70ca65ea9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>table_status</value>
          <variableId>1f52eda2-e6cd-48d8-8e66-1f56c0c69da1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5f58285f-efdb-43cb-95b6-b843dee59777</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>fileName</value>
-         <variableId>3e900a1b-66a2-4f31-a75d-58517c696c98</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>5f58285f-efdb-43cb-95b6-b843dee59777</testDataLinkId>
+         <testDataLinkId>8260002b-ba17-4ba8-a10f-91a70ca65ea9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>downloadPath</value>
          <variableId>1c6bde44-8cb5-45c0-9f54-c56063489320</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>8260002b-ba17-4ba8-a10f-91a70ca65ea9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fileName</value>
+         <variableId>3e900a1b-66a2-4f31-a75d-58517c696c98</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>2cea01f2-e1b3-48c9-8d57-c4856e504d6d</guid>
+      <guid>9b797a01-14db-4042-9df4-e7cb4343fc75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BackOffice_Functional/BO_Logout</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

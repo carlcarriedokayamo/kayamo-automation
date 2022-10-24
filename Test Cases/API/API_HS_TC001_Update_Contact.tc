@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API_HS_TC001_Update_Contact</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a178339-3007-4884-86fd-f4fe4c8db213</testCaseGuid>
+   <variable>
+      <defaultValue>'response'</defaultValue>
+      <description></description>
+      <id>5ffff790-1497-48d7-b56b-bf8ec8629100</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

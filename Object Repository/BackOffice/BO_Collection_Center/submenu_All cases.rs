@@ -4,6 +4,7 @@
    <name>submenu_All cases</name>
    <tag></tag>
    <elementGuidId>5e15e511-8b09-48fa-9c7f-bb0cf3ef31dd</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,26 +12,25 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='sidebar-menu']/div/ul/li[5]/ul/li[2]/a</value>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://uat-admin.kayamo.com.ph/admin/collection_center/all_cases' and (text() = 'All cases' or . = 'All cases')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
-      <webElementGuid>a614439b-d885-4d13-802a-5f554960c579</webElementGuid>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://uat-admin.kayamo.com.ph/admin/collection_center/all_cases</value>
-      <webElementGuid>3ee0c142-3cda-433c-8981-160bcb271d7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,86 +38,5 @@
       <name>text</name>
       <type>Main</type>
       <value>All cases</value>
-      <webElementGuid>11b3eb1e-796d-41d6-95d3-a62201b4fd75</webElementGuid>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;sidebar-menu&quot;)/div[@class=&quot;menu_section&quot;]/ul[@class=&quot;nav side-menu&quot;]/li[@class=&quot;active&quot;]/ul[@class=&quot;nav child_menu&quot;]/li[2]/a[1]</value>
-      <webElementGuid>40b5153d-beb1-48c2-9ddd-ced075071d3e</webElementGuid>
-   </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='sidebar-menu']/div/ul/li[5]/ul/li[2]/a</value>
-      <webElementGuid>673fc36d-da9c-4b8b-b435-55aa3e2684f6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'All cases')]</value>
-      <webElementGuid>c238c101-b98d-4edb-93a1-5c56323b4601</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collection center'])[1]/following::a[1]</value>
-      <webElementGuid>f430e2de-0a53-497a-9745-ed9398f887f0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifier management'])[2]/preceding::a[1]</value>
-      <webElementGuid>33a8c128-19db-4a8b-bdea-eeaa1754ea92</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collection desk'])[1]/preceding::a[2]</value>
-      <webElementGuid>d3e88dc3-a8c7-4ef1-a270-963fdb00d861</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='All cases']/parent::*</value>
-      <webElementGuid>4f14e2cf-e38a-4854-8074-298d2613c192</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'https://uat-admin.kayamo.com.ph/admin/collection_center/all_cases')]</value>
-      <webElementGuid>34d16b25-38ed-4fbd-ada7-f1829d52d57c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//li[5]/ul/li[2]/a</value>
-      <webElementGuid>0b8e4097-b7ef-40d0-a09d-f64639ca6867</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = 'https://uat-admin.kayamo.com.ph/admin/collection_center/all_cases' and (text() = 'All cases' or . = 'All cases')]</value>
-      <webElementGuid>41a22123-9e05-44cd-ba8f-b5d82f34e5ae</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

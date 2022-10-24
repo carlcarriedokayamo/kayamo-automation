@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BO_TS002_CollectionCenter_View" time="34.649" tests="3" failures="0" skips="0" errors="1">
+   <testsuite name="BO_TS002_CollectionCenter_View" tests="3" failures="0" errors="1" time="34.649" skips="0" timestamp="2022-10-24 17:53:15" hostname="carlcarriedo - 192.168.1.2" id="Test Suites/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_175255/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_175255"/>
+         <property name="logFiles" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_175255/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_175255/execution0.log"/>
+         <property name="attachments" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_175255/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_175255/1666605216232.png, /Users/carlcarriedo/git/kayamo-automation/Reports/20221024_175255/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_175255/1666605217827.png, /Users/carlcarriedo/git/kayamo-automation/Reports/20221024_175255/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_175255/1666605225981.png"/>
+         <property name="hostName" value="carlcarriedo - 192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="5ace916d4433e61c6f70e9e167894d01"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/BackOffice_Functional/BO_Login" time="20.673" classname="Test Cases/BackOffice_Functional/BO_Login" status="PASSED">
+         <system-out><![CDATA[2022-10-24 17:53:16 - [TEST_CASE][PASSED] - Test Cases/BackOffice_Functional/BO_Login: Test Cases/BackOffice_Functional/BO_Login
+
+2022-10-24 17:53:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-24 17:53:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-24 17:53:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-24 17:53:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-24 17:53:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-24 17:53:22 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-24 17:53:22 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://uat-admin.kayamo.com.ph/auth/login' successfully
+
+2022-10-24 17:53:26 - [MESSAGE][PASSED] - Navigate to 'https://uat-admin.kayamo.com.ph/auth/login' successfully
+
+2022-10-24 17:53:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Username"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 17:53:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 17:53:26 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 17:53:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BackOffice/Login_Logout/input_Username"), username): Text 'kayamo888' is set on object 'Object Repository/BackOffice/Login_Logout/input_Username'
+
+2022-10-24 17:53:28 - [MESSAGE][PASSED] - Text 'kayamo888' is set on object 'Object Repository/BackOffice/Login_Logout/input_Username'
+
+2022-10-24 17:53:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Password"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 17:53:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 17:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 17:53:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BackOffice/Login_Logout/input_Password"), password): Text 'KingBadger' is set on object 'Object Repository/BackOffice/Login_Logout/input_Password'
+
+2022-10-24 17:53:29 - [MESSAGE][PASSED] - Text 'KingBadger' is set on object 'Object Repository/BackOffice/Login_Logout/input_Password'
+
+2022-10-24 17:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/Login_Logout/button_Login")): Object: 'Object Repository/BackOffice/Login_Logout/button_Login' is clicked on
+
+2022-10-24 17:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/Login_Logout/button_Login' is clicked on
+
+2022-10-24 17:53:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BackOffice/Login_Logout/profile_Name"), profile_name): Actual text and expected text of test object 'Object Repository/BackOffice/Login_Logout/profile_Name' are matched.
+
+2022-10-24 17:53:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BackOffice/Login_Logout/profile_Name' are matched.
+
+2022-10-24 17:53:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-10-24 17:53:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_175255/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_175255/1666605216232.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View" time="9.269" classname="Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View" status="ERROR">
+         <error type="ERROR" message="Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1665480014182.$() is applicable for argument types: (Script1665480014182$_run_closure1) values: [Script1665480014182$_run_closure1@6a937336]
+Possible solutions: is(java.lang.Object), run(), run(), any(), any(groovy.lang.Closure), use([Ljava.lang.Object;)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605175633.run(TempTestSuite1666605175633.groovy:39)
+"/>
+         <system-out><![CDATA[2022-10-24 17:53:37 - [TEST_CASE][ERROR] - Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View: Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1665480014182.$() is applicable for argument types: (Script1665480014182$_run_closure1) values: [Script1665480014182$_run_closure1@6a937336]
+Possible solutions: is(java.lang.Object), run(), run(), any(), any(groovy.lang.Closure), use([Ljava.lang.Object;)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605175633.run(TempTestSuite1666605175633.groovy:39)
+
+
+2022-10-24 17:53:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-10-24 17:53:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_175255/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_175255/1666605217827.png]]
+
+2022-10-24 17:53:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/BO_Collection_Center/menu_Collection center")): Object: 'Object Repository/BackOffice/BO_Collection_Center/menu_Collection center' is clicked on
+
+2022-10-24 17:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/BO_Collection_Center/menu_Collection center' is clicked on
+
+2022-10-24 17:53:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/BO_Collection_Center/submenu_All cases")): Object: 'Object Repository/BackOffice/BO_Collection_Center/submenu_All cases' is clicked on
+
+2022-10-24 17:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/BO_Collection_Center/submenu_All cases' is clicked on
+
+2022-10-24 17:53:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number"), loan_number): Text '9849' is set on object 'Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number'
+
+2022-10-24 17:53:43 - [MESSAGE][PASSED] - Text '9849' is set on object 'Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number'
+
+2022-10-24 17:53:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/BO_Collection_Center/button_Search")): Object: 'Object Repository/BackOffice/BO_Collection_Center/button_Search' is clicked on
+
+2022-10-24 17:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/BO_Collection_Center/button_Search' is clicked on
+
+2022-10-24 17:53:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-10-24 17:53:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_175255/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_175255/1666605225981.png]]
+
+2022-10-24 17:53:46 - [TEST_STEP][PASSED] - tempvar = getText(findTestObject("BackOffice/BO_Merchant_Loan_Center/table_Loan_Number", ["table_loan_number":$({ -> ... })]), 0): null]]></system-out>
+         <system-err><![CDATA[2022-10-24 17:53:37 - [TEST_CASE][ERROR] - Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View: Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1665480014182.$() is applicable for argument types: (Script1665480014182$_run_closure1) values: [Script1665480014182$_run_closure1@6a937336]
+Possible solutions: is(java.lang.Object), run(), run(), any(), any(groovy.lang.Closure), use([Ljava.lang.Object;)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605175633.run(TempTestSuite1666605175633.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BackOffice_Functional/BO_Logout" time="2.871" classname="Test Cases/BackOffice_Functional/BO_Logout" status="PASSED">
+         <system-out><![CDATA[2022-10-24 17:53:46 - [TEST_CASE][PASSED] - Test Cases/BackOffice_Functional/BO_Logout: Test Cases/BackOffice_Functional/BO_Logout
+
+2022-10-24 17:53:46 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/Login_Logout/profile_icon")): Object: 'Object Repository/BackOffice/Login_Logout/profile_icon' is clicked on
+
+2022-10-24 17:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/Login_Logout/profile_icon' is clicked on
+
+2022-10-24 17:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/Login_Logout/profile_logout")): Object: 'Object Repository/BackOffice/Login_Logout/profile_logout' is clicked on
+
+2022-10-24 17:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/Login_Logout/profile_logout' is clicked on
+
+2022-10-24 17:53:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Username"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 17:53:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 17:53:48 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 17:53:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Password"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 17:53:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 17:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 17:53:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-24 17:53:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-24 17:53:15 - [TEST_SUITE][ERROR] - BO_TS002_CollectionCenter_View: Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1665480014182.$() is applicable for argument types: (Script1665480014182$_run_closure1) values: [Script1665480014182$_run_closure1@6a937336]
+Possible solutions: is(java.lang.Object), run(), run(), any(), any(groovy.lang.Closure), use([Ljava.lang.Object;)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605175633.run(TempTestSuite1666605175633.groovy:39)]]></system-out>
+      <system-err><![CDATA[2022-10-24 17:53:15 - [TEST_SUITE][ERROR] - BO_TS002_CollectionCenter_View: Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: Script1665480014182.$() is applicable for argument types: (Script1665480014182$_run_closure1) values: [Script1665480014182$_run_closure1@6a937336]
+Possible solutions: is(java.lang.Object), run(), run(), any(), any(groovy.lang.Closure), use([Ljava.lang.Object;)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605175633.run(TempTestSuite1666605175633.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

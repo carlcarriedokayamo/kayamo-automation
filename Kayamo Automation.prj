@@ -6,7 +6,7 @@
    <UUID>d432f372-5320-481b-8b51-712da36dda10</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/carlcarriedo/Documents/Katalon Automation/Kayamo Automation/Kayamo Automation.prj</projectFileLocation>
+   <projectFileLocation>/Users/carlcarriedo/git/kayamo-automation/Kayamo Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -25,6 +25,5 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
-   <timeStampInProperties>false</timeStampInProperties>
    <type>WEBUI</type>
 </Project>

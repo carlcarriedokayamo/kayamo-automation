@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BO_TS002_CollectionCenter_View,Chrome 106.0.0.0,Executes BO_TC002_CollectionCenter_View,,2022-10-24 15:11:33,2022-10-24 15:12:01,27.663s,ERROR
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_Login,Chrome 106.0.0.0,Reusable script for backoffice login,,2022-10-24 15:11:34,2022-10-24 15:11:51,16.822s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-24 15:11:34,2022-10-24 15:11:41,6.761s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-24 15:11:41,2022-10-24 15:11:41,0.220s,PASSED
+navigateToUrl(url),Chrome 106.0.0.0,,,2022-10-24 15:11:41,2022-10-24 15:11:44,2.226s,PASSED
+"verifyElementPresent(findTestObject(""BackOffice/Login_Logout/input_Username""), 0)",Chrome 106.0.0.0,,,2022-10-24 15:11:44,2022-10-24 15:11:44,0.519s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/Login_Logout/input_Username""), username)",Chrome 106.0.0.0,,,2022-10-24 15:11:44,2022-10-24 15:11:45,1.075s,PASSED
+"verifyElementPresent(findTestObject(""BackOffice/Login_Logout/input_Password""), 0)",Chrome 106.0.0.0,,,2022-10-24 15:11:45,2022-10-24 15:11:46,0.401s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/Login_Logout/input_Password""), password)",Chrome 106.0.0.0,,,2022-10-24 15:11:46,2022-10-24 15:11:47,0.913s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/Login_Logout/button_Login""))",Chrome 106.0.0.0,,,2022-10-24 15:11:47,2022-10-24 15:11:49,2.288s,PASSED
+"verifyElementText(findTestObject(""BackOffice/Login_Logout/profile_Name""), profile_name)",Chrome 106.0.0.0,,,2022-10-24 15:11:49,2022-10-24 15:11:50,1.321s,PASSED
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-24 15:11:50,2022-10-24 15:11:51,0.663s,PASSED
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View,Chrome 106.0.0.0,https://kayamo.atlassian.net/browse/KS-219,,2022-10-24 15:11:51,2022-10-24 15:11:58,6.816s,ERROR
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-24 15:11:51,2022-10-24 15:11:52,0.589s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Collection_Center/menu_Collection center""))",Chrome 106.0.0.0,,,2022-10-24 15:11:52,2022-10-24 15:11:52,0.473s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Collection_Center/submenu_All cases""))",Chrome 106.0.0.0,,,2022-10-24 15:11:52,2022-10-24 15:11:55,2.133s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number""), loan_number)",Chrome 106.0.0.0,,,2022-10-24 15:11:55,2022-10-24 15:11:55,0.942s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Collection_Center/button_Search""))",Chrome 106.0.0.0,,,2022-10-24 15:11:55,2022-10-24 15:11:57,1.375s,PASSED
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-24 15:11:57,2022-10-24 15:11:58,0.808s,PASSED
+"verifyElementText(findTestObject(""Object Repository/BackOffice/BO_Collection_Center/table_Loan_Number""), [""‘loan_number’"":$loan_number], CONTINUE_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-24 15:11:58,2022-10-24 15:11:58,0.047s,PASSED
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_Logout,Chrome 106.0.0.0,Reusable script for backoffice logout,,2022-10-24 15:11:58,2022-10-24 15:12:01,2.905s,PASSED
+"click(findTestObject(""BackOffice/Login_Logout/profile_icon""))",Chrome 106.0.0.0,,,2022-10-24 15:11:58,2022-10-24 15:11:58,0.475s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/Login_Logout/profile_logout""))",Chrome 106.0.0.0,,,2022-10-24 15:11:58,2022-10-24 15:12:00,1.209s,PASSED
+"verifyElementPresent(findTestObject(""BackOffice/Login_Logout/input_Username""), 0)",Chrome 106.0.0.0,,,2022-10-24 15:12:00,2022-10-24 15:12:00,0.442s,PASSED
+"verifyElementPresent(findTestObject(""BackOffice/Login_Logout/input_Password""), 0)",Chrome 106.0.0.0,,,2022-10-24 15:12:00,2022-10-24 15:12:01,0.400s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-24 15:12:01,2022-10-24 15:12:01,0.204s,PASSED

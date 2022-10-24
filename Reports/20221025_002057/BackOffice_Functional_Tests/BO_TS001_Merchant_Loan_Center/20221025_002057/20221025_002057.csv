@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BO_TS001_Merchant_Loan_Center,Chrome 106.0.0.0,,,2022-10-25 00:21:16,2022-10-25 00:22:07,51.366s,PASSED
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_Login,Chrome 106.0.0.0,Reusable script for backoffice login,,2022-10-25 00:21:17,2022-10-25 00:21:33,15.776s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-25 00:21:17,2022-10-25 00:21:23,5.477s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-25 00:21:23,2022-10-25 00:21:23,0.194s,PASSED
+navigateToUrl(url),Chrome 106.0.0.0,,,2022-10-25 00:21:23,2022-10-25 00:21:24,1.544s,PASSED
+"verifyElementPresent(findTestObject(""BackOffice/Login_Logout/input_Username""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:21:24,2022-10-25 00:21:25,0.628s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/Login_Logout/input_Username""), username)",Chrome 106.0.0.0,,,2022-10-25 00:21:25,2022-10-25 00:21:27,1.413s,PASSED
+"verifyElementPresent(findTestObject(""BackOffice/Login_Logout/input_Password""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:21:27,2022-10-25 00:21:27,0.355s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/Login_Logout/input_Password""), password)",Chrome 106.0.0.0,,,2022-10-25 00:21:27,2022-10-25 00:21:28,0.760s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/Login_Logout/button_Login""))",Chrome 106.0.0.0,,,2022-10-25 00:21:28,2022-10-25 00:21:31,3.392s,PASSED
+"verifyElementText(findTestObject(""BackOffice/Login_Logout/profile_Name""), profile_name)",Chrome 106.0.0.0,,,2022-10-25 00:21:31,2022-10-25 00:21:32,0.735s,PASSED
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-25 00:21:32,2022-10-25 00:21:33,0.904s,PASSED
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_TC001_BatchGenerateDemandLetter,Chrome 106.0.0.0,Test for https://kayamo.atlassian.net/browse/KS-231,,2022-10-25 00:21:33,2022-10-25 00:22:07,34.466s,PASSED
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-25 00:21:33,2022-10-25 00:21:34,0.562s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Merchant_Loan_Center/menu_Merchant_Loan_Center""))",Chrome 106.0.0.0,,,2022-10-25 00:21:34,2022-10-25 00:21:35,1.414s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Merchant_Loan_Center/submenu_All_Loans""))",Chrome 106.0.0.0,,,2022-10-25 00:21:35,2022-10-25 00:21:37,1.746s,PASSED
+"setText(findTestObject(""BackOffice/BO_Merchant_Loan_Center/input_Loan_Number""), loan_number)",Chrome 106.0.0.0,,,2022-10-25 00:21:37,2022-10-25 00:21:38,1.141s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/BO_Merchant_Loan_Center/input_Mobile_Number""), mobile_number)",Chrome 106.0.0.0,,,2022-10-25 00:21:38,2022-10-25 00:21:39,0.836s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/BackOffice/BO_Merchant_Loan_Center/select_Status""), select_status, true)",Chrome 106.0.0.0,,,2022-10-25 00:21:39,2022-10-25 00:21:41,1.879s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Merchant_Loan_Center/button_Search""))",Chrome 106.0.0.0,,,2022-10-25 00:21:41,2022-10-25 00:21:43,2.233s,PASSED
+"verifyElementText(findTestObject(""BackOffice/BO_Merchant_Loan_Center/table_Loan_Number""), table_loan_number)",Chrome 106.0.0.0,,,2022-10-25 00:21:43,2022-10-25 00:21:43,0.520s,PASSED
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-25 00:21:43,2022-10-25 00:21:44,0.795s,PASSED
+"click(findTestObject(""BackOffice/BO_Merchant_Loan_Center/input_Mobile_Number""))",Chrome 106.0.0.0,,,2022-10-25 00:21:44,2022-10-25 00:21:45,0.486s,PASSED
+"verifyElementText(findTestObject(""BackOffice/BO_Merchant_Loan_Center/table_Status""), table_status)",Chrome 106.0.0.0,,,2022-10-25 00:21:45,2022-10-25 00:21:45,0.305s,PASSED
+"click(findTestObject(""BackOffice/BO_Merchant_Loan_Center/table_View""))",Chrome 106.0.0.0,,,2022-10-25 00:21:45,2022-10-25 00:21:51,6.386s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Merchant_Loan_Center/details_Contact_Number""))",Chrome 106.0.0.0,,,2022-10-25 00:21:51,2022-10-25 00:21:53,1.242s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Merchant_Loan_Center/button_Demand Letter""))",Chrome 106.0.0.0,,,2022-10-25 00:21:53,2022-10-25 00:21:56,3.712s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-25 00:21:56,2022-10-25 00:22:01,5.051s,PASSED
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-25 00:22:01,2022-10-25 00:22:02,0.827s,PASSED
+"pdfKeywords.verifyFileDownloaded.checkFileDownloaded(downloadPath, fileName)",Chrome 106.0.0.0,,,2022-10-25 00:22:02,2022-10-25 00:22:02,0.104s,PASSED
+delay(5),Chrome 106.0.0.0,,,2022-10-25 00:22:02,2022-10-25 00:22:07,5.013s,PASSED

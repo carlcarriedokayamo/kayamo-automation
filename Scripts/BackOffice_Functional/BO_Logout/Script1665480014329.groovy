@@ -1,5 +1,5 @@
 /* Author: Carlito Carriedo
- * Created Date: October 5, 2022
+ * Initial create date: October 5, 2022
  * Description: Test case for logging out the Back office application
  */
 

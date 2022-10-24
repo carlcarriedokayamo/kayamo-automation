@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BO_TS002_CollectionCenter_View,Chrome 106.0.0.0,Executes BO_TC002_CollectionCenter_View,,2022-10-24 17:14:31,2022-10-24 17:15:40,1m - 8.955s,FAILED
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_Login,Chrome 106.0.0.0,Reusable script for backoffice login,,2022-10-24 17:14:32,2022-10-24 17:14:54,22.731s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-24 17:14:32,2022-10-24 17:14:38,6.194s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-24 17:14:38,2022-10-24 17:14:38,0.208s,PASSED
+navigateToUrl(url),Chrome 106.0.0.0,,,2022-10-24 17:14:38,2022-10-24 17:14:43,4.948s,PASSED
+"verifyElementPresent(findTestObject(""BackOffice/Login_Logout/input_Username""), 0)",Chrome 106.0.0.0,,,2022-10-24 17:14:43,2022-10-24 17:14:44,0.539s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/Login_Logout/input_Username""), username)",Chrome 106.0.0.0,,,2022-10-24 17:14:44,2022-10-24 17:14:47,3.314s,PASSED
+"verifyElementPresent(findTestObject(""BackOffice/Login_Logout/input_Password""), 0)",Chrome 106.0.0.0,,,2022-10-24 17:14:47,2022-10-24 17:14:48,0.496s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/Login_Logout/input_Password""), password)",Chrome 106.0.0.0,,,2022-10-24 17:14:48,2022-10-24 17:14:48,0.837s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/Login_Logout/button_Login""))",Chrome 106.0.0.0,,,2022-10-24 17:14:48,2022-10-24 17:14:51,2.654s,PASSED
+"verifyElementText(findTestObject(""BackOffice/Login_Logout/profile_Name""), profile_name)",Chrome 106.0.0.0,,,2022-10-24 17:14:51,2022-10-24 17:14:52,1.043s,PASSED
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-24 17:14:52,2022-10-24 17:14:54,2.128s,PASSED
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View,Chrome 106.0.0.0,https://kayamo.atlassian.net/browse/KS-219,,2022-10-24 17:14:54,2022-10-24 17:15:36,41.939s,FAILED
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-24 17:14:55,2022-10-24 17:14:55,0.554s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Collection_Center/menu_Collection center""))",Chrome 106.0.0.0,,,2022-10-24 17:14:55,2022-10-24 17:14:56,0.497s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Collection_Center/submenu_All cases""))",Chrome 106.0.0.0,,,2022-10-24 17:14:56,2022-10-24 17:15:00,3.715s,PASSED
+"setText(findTestObject(""Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number""), loan_number)",Chrome 106.0.0.0,,,2022-10-24 17:15:00,2022-10-24 17:15:01,1.118s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/BO_Collection_Center/button_Search""))",Chrome 106.0.0.0,,,2022-10-24 17:15:01,2022-10-24 17:15:03,2.385s,PASSED
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-24 17:15:03,2022-10-24 17:15:04,0.885s,PASSED
+"newXPath = modifyObjectProperty(findTestObject(""BackOffice/BO_Merchant_Loan_Center/table_Loan_Number""), ""xpath"", ""equals"", ""//*[@text=’${table_loan_number}’]"", false)",Chrome 106.0.0.0,,,2022-10-24 17:15:04,2022-10-24 17:15:04,0.212s,PASSED
+"verifyElementText(findTestObject(""BackOffice/BO_Merchant_Loan_Center/table_Loan_Number""), table_loan_number)",Chrome 106.0.0.0,,,2022-10-24 17:15:04,2022-10-24 17:15:36,32.216s,FAILED
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_Logout,Chrome 106.0.0.0,Reusable script for backoffice logout,,2022-10-24 17:15:36,2022-10-24 17:15:40,3.104s,PASSED
+"click(findTestObject(""BackOffice/Login_Logout/profile_icon""))",Chrome 106.0.0.0,,,2022-10-24 17:15:37,2022-10-24 17:15:37,0.754s,PASSED
+"click(findTestObject(""Object Repository/BackOffice/Login_Logout/profile_logout""))",Chrome 106.0.0.0,,,2022-10-24 17:15:37,2022-10-24 17:15:38,1.053s,PASSED
+"verifyElementPresent(findTestObject(""BackOffice/Login_Logout/input_Username""), 0)",Chrome 106.0.0.0,,,2022-10-24 17:15:38,2022-10-24 17:15:39,0.559s,PASSED
+"verifyElementPresent(findTestObject(""BackOffice/Login_Logout/input_Password""), 0)",Chrome 106.0.0.0,,,2022-10-24 17:15:39,2022-10-24 17:15:39,0.374s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-24 17:15:39,2022-10-24 17:15:40,0.124s,PASSED

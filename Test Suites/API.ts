@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>API</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>9388e94c-c6fe-4307-bed2-7785d55e2621</testSuiteGuid>
+   <testCaseLink>
+      <guid>ec248e2e-ec3f-494d-9170-7ee70d647730</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/API_HS_TC001_Update_Contact</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6d196761-03e6-4e78-8715-be4ec6ce70e9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/BackOffice_Dataset/BackOffice_Dataset</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5ffff790-1497-48d7-b56b-bf8ec8629100</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2df333ac-c7a5-4765-8de0-32bdc440db2b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/API</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e2057550-ec44-4da3-bf0d-25979f5d2fee</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/BackOffice_Dataset/BackOffice_Dataset</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e2057550-ec44-4da3-bf0d-25979f5d2fee</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>profile_name</value>
+         <variableId>d0531e2d-360f-423e-85c3-ae8e81904357</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f702592b-5802-44ea-a236-a14dc5a1d922</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

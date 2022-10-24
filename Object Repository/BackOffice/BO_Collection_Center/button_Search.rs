@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//button[@id='search-bar']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @id = 'search-bar']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1b5c19ad-6539-466c-889c-b9f33dfea5c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +33,6 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e72de062-4bbc-4db2-a781-bde7de4841b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +40,6 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>da2c4f0f-905f-44d4-bac3-8cff587f5f58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,55 +47,6 @@
       <name>id</name>
       <type>Main</type>
       <value>search-bar</value>
-      <webElementGuid>849a6588-99b8-4cd9-a061-a742c811ecf8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>  Search                                    </value>
-      <webElementGuid>d3804799-6e20-41db-af58-d9a5af44b8d0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;search-bar&quot;)</value>
-      <webElementGuid>b38c2172-f195-4a58-a28a-52fdd0895fd4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>eef0952e-0c70-4d35-b2e0-4779c41713cf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9addfee1-2473-46d4-a079-5b81f6788c93</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary</value>
-      <webElementGuid>26d7406e-588a-46b1-b179-cd4cb7414e85</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>search-bar</value>
-      <webElementGuid>a7de7922-e106-4f5e-a098-ebccda551e52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +54,6 @@
       <name>text</name>
       <type>Main</type>
       <value>  Search                                    </value>
-      <webElementGuid>257db1d2-9162-476e-9bfc-215ae89c27de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,46 +61,5 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;search-bar&quot;)</value>
-      <webElementGuid>f047bb89-80f5-480f-9251-f9a65149923e</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='search-bar']</value>
-      <webElementGuid>42a7ce33-d1bb-45ef-8946-8e0265d5e8a0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repayment time'])[1]/following::button[1]</value>
-      <webElementGuid>7efd2d98-67e8-4440-9db0-37d8a097502f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disbursement date'])[1]/following::button[1]</value>
-      <webElementGuid>e51f8ed8-56f9-47f1-ae1a-716a153752fb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>bbc21792-4d95-49b8-8db4-1022294d3092</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'search-bar' and (text() = '  Search                                    ' or . = '  Search                                    ')]</value>
-      <webElementGuid>60fc836a-706b-4239-9841-c748fdf55da4</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,153 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+E2E_TS001_New_Loan_Application,Chrome 106.0.0.0,,,2022-10-25 00:31:28,2022-10-25 00:35:57,4m - 29.012s,FAILED
+,,,,,,,
+Test Cases/KayamoSite_Functional/KS_TC002_Signup_Login_Valid_Login,Chrome 106.0.0.0,This is to validate the signup functionality.,,2022-10-25 00:31:29,2022-10-25 00:32:08,39.438s,PASSED
+"openBrowser("""")",Chrome 106.0.0.0,,,2022-10-25 00:31:29,2022-10-25 00:31:35,5.504s,PASSED
+maximizeWindow(),Chrome 106.0.0.0,,,2022-10-25 00:31:35,2022-10-25 00:31:35,0.211s,PASSED
+deleteAllCookies(),Chrome 106.0.0.0,,,2022-10-25 00:31:35,2022-10-25 00:31:35,0.029s,PASSED
+navigateToUrl(url),Chrome 106.0.0.0,,,2022-10-25 00:31:35,2022-10-25 00:31:45,9.409s,PASSED
+"waitForElementVisible(findTestObject(""KayamoSite_Home_Page/promotion_Alert""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:31:45,2022-10-25 00:31:46,1.039s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/promotion_Alert""))",Chrome 106.0.0.0,,,2022-10-25 00:31:46,2022-10-25 00:31:48,2.109s,PASSED
+"waitForElementVisible(findTestObject(""KayamoSite_Home_Page/menu_Login_or_Signup""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:31:48,2022-10-25 00:31:48,0.434s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/menu_Login_or_Signup""))",Chrome 106.0.0.0,,,2022-10-25 00:31:48,2022-10-25 00:31:50,1.479s,PASSED
+"waitForElementVisible(findTestObject(""KayamoSite_Home_Page/input_LogIn_SignUp_mobile_number""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:31:50,2022-10-25 00:31:51,1.121s,PASSED
+"setText(findTestObject(""KayamoSite_Home_Page/input_LogIn_SignUp_mobile_number""), phone_number)",Chrome 106.0.0.0,,,2022-10-25 00:31:51,2022-10-25 00:31:52,1.390s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/input_LogInSignUp_OTP1""))",Chrome 106.0.0.0,,,2022-10-25 00:31:52,2022-10-25 00:31:53,0.430s,PASSED
+"setText(findTestObject(""KayamoSite_Profile_Page/input_Log In  Sign Up_verification_code""), verification_code1)",Chrome 106.0.0.0,,,2022-10-25 00:31:53,2022-10-25 00:31:54,0.958s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/input_LogInSignUp_OTP2""))",Chrome 106.0.0.0,,,2022-10-25 00:31:54,2022-10-25 00:31:54,0.424s,PASSED
+"setText(findTestObject(""KayamoSite_Home_Page/input_LogIn_SignUp_verification_code""), verification_code2)",Chrome 106.0.0.0,,,2022-10-25 00:31:54,2022-10-25 00:31:55,0.709s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/input_LogInSignUp_OTP3""))",Chrome 106.0.0.0,,,2022-10-25 00:31:55,2022-10-25 00:31:55,0.525s,PASSED
+"setText(findTestObject(""KayamoSite_Home_Page/input_LogIn_SignUp_verification_code""), verification_code3)",Chrome 106.0.0.0,,,2022-10-25 00:31:55,2022-10-25 00:31:57,1.407s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/input_LogInSignUp_OTP4""))",Chrome 106.0.0.0,,,2022-10-25 00:31:57,2022-10-25 00:31:57,0.443s,PASSED
+"setText(findTestObject(""KayamoSite_Home_Page/input_LogIn_SignUp_verification_code""), verification_code4)",Chrome 106.0.0.0,,,2022-10-25 00:31:57,2022-10-25 00:31:58,0.598s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/input_LogInSignUp_OTP5""))",Chrome 106.0.0.0,,,2022-10-25 00:31:58,2022-10-25 00:31:58,0.536s,PASSED
+"setText(findTestObject(""KayamoSite_Home_Page/input_LogIn_SignUp_verification_code""), verification_code5)",Chrome 106.0.0.0,,,2022-10-25 00:31:58,2022-10-25 00:31:59,0.718s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/input_LogInSignUp_OTP6""))",Chrome 106.0.0.0,,,2022-10-25 00:31:59,2022-10-25 00:31:59,0.410s,PASSED
+"setText(findTestObject(""KayamoSite_Home_Page/input_LogIn_SignUp_verification_code""), verification_code6)",Chrome 106.0.0.0,,,2022-10-25 00:31:59,2022-10-25 00:32:00,0.803s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/Checkbox_I agree with the terms of use of Kayamo""))",Chrome 106.0.0.0,,,2022-10-25 00:32:00,2022-10-25 00:32:01,0.519s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/Button_Accept_Terms_Conditions""))",Chrome 106.0.0.0,,,2022-10-25 00:32:01,2022-10-25 00:32:01,0.453s,PASSED
+"click(findTestObject(""KayamoSite_Home_Page/Button_Log In Sign Up""))",Chrome 106.0.0.0,,,2022-10-25 00:32:01,2022-10-25 00:32:02,0.603s,PASSED
+"verifyElementPresent(findTestObject(""KayamoSite_Profile_Page/Icon_Profile""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:32:02,2022-10-25 00:32:03,1.620s,PASSED
+"click(findTestObject(""KayamoSite_Profile_Page/Icon_Profile""))",Chrome 106.0.0.0,,,2022-10-25 00:32:03,2022-10-25 00:32:07,3.679s,PASSED
+"verifyElementText(findTestObject(""KayamoSite_Profile_Page/Profile_Name""), profile_name)",Chrome 106.0.0.0,,,2022-10-25 00:32:07,2022-10-25 00:32:07,0.441s,PASSED
+"genericKeywords.genericKeywords.textContains(getText(findTestObject(""KayamoSite_Profile_Page/Profile_PhoneNumber"")), profile_phone_number)",Chrome 106.0.0.0,,,2022-10-25 00:32:07,2022-10-25 00:32:08,0.325s,PASSED
+takeScreenshot(),Chrome 106.0.0.0,,,2022-10-25 00:32:08,2022-10-25 00:32:08,0.676s,PASSED
+,,,,,,,
+Test Cases/E2E Test Cases/E2E_TC001_KS_New_Loan_Application_ApplyNow,Chrome 106.0.0.0,End to end test case for new loan application upto shop seller authorization login page,,2022-10-25 00:32:08,2022-10-25 00:32:33,24.536s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/button_Apply Now""))",Chrome 106.0.0.0,,,2022-10-25 00:32:09,2022-10-25 00:32:14,4.842s,PASSED
+"if (verifyElementVisible(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/button_New Application""), OPTIONAL))",Chrome 106.0.0.0,,,2022-10-25 00:32:14,2022-10-25 00:32:16,1.948s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/button_Shopee_Seller_Auth""))",Chrome 106.0.0.0,,,2022-10-25 00:32:16,2022-10-25 00:32:21,5.231s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/dropdown_Select_Country_Code_Shop_Seller_Auth""))",Chrome 106.0.0.0,,,2022-10-25 00:32:21,2022-10-25 00:32:27,6.509s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/dropdown_Select_Country_Code_Philippines_Shop_Seller_Auth""))",Chrome 106.0.0.0,,,2022-10-25 00:32:27,2022-10-25 00:32:28,0.698s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/input_Shop_Seller_Auth_Phone_Number""), seller_auth_phone_number)",Chrome 106.0.0.0,,,2022-10-25 00:32:28,2022-10-25 00:32:30,1.943s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/input_Shop_Seller_Auth_Password""), seller_auth_password)",Chrome 106.0.0.0,,,2022-10-25 00:32:30,2022-10-25 00:32:32,2.161s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/button_Shop_Seller_Auth_Login""))",Chrome 106.0.0.0,,,2022-10-25 00:32:32,2022-10-25 00:32:33,0.905s,PASSED
+,,,,,,,
+Test Cases/E2E Test Cases/E2E_TC002_KS_New_Loan_Application_OTP_ShopAuth,Chrome 106.0.0.0,End to end test case for new loan application for shop seller authorization,,2022-10-25 00:32:33,2022-10-25 00:33:19,45.906s,PASSED
+"if (verifyElementVisible(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/input_OTP""), OPTIONAL))",Chrome 106.0.0.0,,,2022-10-25 00:32:34,2022-10-25 00:33:05,31.609s,PASSED
+"verifyElementText(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/text_Shop_Seller_Auth_Confirm_Auth""), seller_shop_username)",Chrome 106.0.0.0,,,2022-10-25 00:33:05,2022-10-25 00:33:06,0.493s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/button_Shop_Seller_Auth_Confirm Authorization""))",Chrome 106.0.0.0,,,2022-10-25 00:33:06,2022-10-25 00:33:06,0.627s,PASSED
+"waitForElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/message_The authorization is being processed""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:33:06,2022-10-25 00:33:07,0.401s,PASSED
+"waitForElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/message_Authorization success""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:33:07,2022-10-25 00:33:12,5.321s,PASSED
+"verifyElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Apply_Now_Seller_Auth/text_Shopee_Store_Information_Step1""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:33:12,2022-10-25 00:33:19,6.829s,PASSED
+,,,,,,,
+Test Cases/E2E Test Cases/E2E_TC003_KS_New_Loan_Application_Step1,Chrome 106.0.0.0,End to end test case for new loan application step 1,,2022-10-25 00:33:19,2022-10-25 00:33:48,28.526s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step1_Store_Name""), store_name_step1)",Chrome 106.0.0.0,,,2022-10-25 00:33:19,2022-10-25 00:33:20,0.860s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step1_Shop_URL""), shop_url_step1)",Chrome 106.0.0.0,,,2022-10-25 00:33:20,2022-10-25 00:33:21,0.899s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step1_Contact_Number""), contact_number_step1)",Chrome 106.0.0.0,,,2022-10-25 00:33:21,2022-10-25 00:33:22,0.826s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step1_Store_Email_Address""), store_email_address_step1)",Chrome 106.0.0.0,,,2022-10-25 00:33:22,2022-10-25 00:33:23,1.238s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step1_Store_City_Address""))",Chrome 106.0.0.0,,,2022-10-25 00:33:23,2022-10-25 00:33:24,0.726s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step1_Store_City_Address""), store_city_address_step1)",Chrome 106.0.0.0,,,2022-10-25 00:33:24,2022-10-25 00:33:25,1.111s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step1_Store_City_Address""))",Chrome 106.0.0.0,,,2022-10-25 00:33:25,2022-10-25 00:33:26,1.191s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step1_Store_Complete_Address""), store_complete_address_step1)",Chrome 106.0.0.0,,,2022-10-25 00:33:26,2022-10-25 00:33:27,0.905s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step1_Warehouse_City_Address""))",Chrome 106.0.0.0,,,2022-10-25 00:33:27,2022-10-25 00:33:28,0.559s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step1_Warehouse_City_Address""), warehouse_city_address_step1)",Chrome 106.0.0.0,,,2022-10-25 00:33:28,2022-10-25 00:33:29,1.027s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step1_Warehouse_City_Address""))",Chrome 106.0.0.0,,,2022-10-25 00:33:29,2022-10-25 00:33:29,0.467s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_Warehouse Complete Address_warehouse__3115e9""), warehouse_complete_address_step1)",Chrome 106.0.0.0,,,2022-10-25 00:33:29,2022-10-25 00:33:30,1.109s,PASSED
+"uploadFile(findTestObject(""E2E_KS_New_Loan_Application_Steps123/attachment_step1_upload_proof_of_billing""), attachment_path_file_step1)",Chrome 106.0.0.0,,,2022-10-25 00:33:30,2022-10-25 00:33:31,0.528s,PASSED
+delay(15),Chrome 106.0.0.0,,,2022-10-25 00:33:31,2022-10-25 00:33:46,15.044s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/button_step1_Next""))",Chrome 106.0.0.0,,,2022-10-25 00:33:46,2022-10-25 00:33:46,0.632s,PASSED
+"if (!(verifyElementText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/message_success""), ""success"", STOP_ON_FAILURE)))",Chrome 106.0.0.0,,,2022-10-25 00:33:46,2022-10-25 00:33:48,1.178s,PASSED
+,,,,,,,
+Test Cases/E2E Test Cases/E2E_TC004_KS_New_Loan_Application_Step2,Chrome 106.0.0.0,End to end test case for new loan application step 2,,2022-10-25 00:33:48,2022-10-25 00:34:27,38.893s,PASSED
+"waitForElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_FirstName_Shop_Owner""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:33:48,2022-10-25 00:33:53,5.245s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_FirstName_Shop_Owner""), firstname_of_shop_owner_step2)",Chrome 106.0.0.0,,,2022-10-25 00:33:53,2022-10-25 00:33:54,1.010s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_MiddleName_Shop_Owner""), middlename_of_shop_owner_step2)",Chrome 106.0.0.0,,,2022-10-25 00:33:54,2022-10-25 00:33:55,0.753s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_LastName_Shop_Owner""), lastname_of_shop_owner_step2)",Chrome 106.0.0.0,,,2022-10-25 00:33:55,2022-10-25 00:33:56,0.808s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_Address""), address_step2)",Chrome 106.0.0.0,,,2022-10-25 00:33:56,2022-10-25 00:33:57,0.751s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step2_City_Address""))",Chrome 106.0.0.0,,,2022-10-25 00:33:57,2022-10-25 00:33:57,0.508s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step2_City_Address""), city_address_step2)",Chrome 106.0.0.0,,,2022-10-25 00:33:57,2022-10-25 00:33:58,1.113s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step2_City_Address""))",Chrome 106.0.0.0,,,2022-10-25 00:33:58,2022-10-25 00:33:59,0.429s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_Zip_Code""), zip_code_step2)",Chrome 106.0.0.0,,,2022-10-25 00:33:59,2022-10-25 00:34:00,1.027s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_Birthdate""), birthdate_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:00,2022-10-25 00:34:03,3.135s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step2_Gender""))",Chrome 106.0.0.0,,,2022-10-25 00:34:03,2022-10-25 00:34:04,0.850s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step2_Gender""), gender_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:04,2022-10-25 00:34:04,0.822s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step2_Gender""))",Chrome 106.0.0.0,,,2022-10-25 00:34:04,2022-10-25 00:34:05,0.397s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step2_Education""))",Chrome 106.0.0.0,,,2022-10-25 00:34:05,2022-10-25 00:34:05,0.500s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step2_Education""), education_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:05,2022-10-25 00:34:06,0.948s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step2_College_Graduate""))",Chrome 106.0.0.0,,,2022-10-25 00:34:06,2022-10-25 00:34:07,0.521s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step2_Marital_Status""))",Chrome 106.0.0.0,,,2022-10-25 00:34:07,2022-10-25 00:34:07,0.533s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step2_Marital_Status""), marital_status_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:07,2022-10-25 00:34:08,0.955s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step2_Marital_Status""))",Chrome 106.0.0.0,,,2022-10-25 00:34:08,2022-10-25 00:34:09,0.394s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step2_Number_Of_Children""))",Chrome 106.0.0.0,,,2022-10-25 00:34:09,2022-10-25 00:34:09,0.551s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step2_Number_Of_Children""), number_of_children_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:09,2022-10-25 00:34:10,0.985s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step2_Number_Of_Children""))",Chrome 106.0.0.0,,,2022-10-25 00:34:10,2022-10-25 00:34:11,0.461s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_Facebook_URL""), facebook_url_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:11,2022-10-25 00:34:12,0.992s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_Purpose_of_Loan""), purpose_of_loan_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:12,2022-10-25 00:34:13,0.839s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_Expected_Loan_Amount""), expected_loan_amount_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:13,2022-10-25 00:34:13,0.694s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step2_ID_Type""))",Chrome 106.0.0.0,,,2022-10-25 00:34:13,2022-10-25 00:34:14,0.425s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step2_ID_Type""), id_type_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:14,2022-10-25 00:34:14,0.813s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step2_ID_Type""))",Chrome 106.0.0.0,,,2022-10-25 00:34:14,2022-10-25 00:34:15,0.423s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_ID _No""), id_no_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:15,2022-10-25 00:34:16,1.144s,PASSED
+"verifyElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Steps123/step2_Add Attachment""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:34:16,2022-10-25 00:34:16,0.270s,PASSED
+"uploadFile(findTestObject(""E2E_KS_New_Loan_Application_Steps123/attachment_step2_upload_ID""), id_attachment_pathfile_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:16,2022-10-25 00:34:17,0.536s,PASSED
+"verifyElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Steps123/step2_Selfie Holding your ID""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:34:17,2022-10-25 00:34:18,1.022s,PASSED
+"uploadFile(findTestObject(""E2E_KS_New_Loan_Application_Steps123/attachment_step2_upload_ID_Selfie""), selfie_id_pathfile_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:18,2022-10-25 00:34:18,0.420s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_BankAccount_Account_FirstName""), bankaccount_firstname_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:18,2022-10-25 00:34:20,1.915s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_BankAccount_Account_MiddleName""), bankaccount_middlename_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:20,2022-10-25 00:34:21,0.920s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_BankAccount_Account_LastName""), bankaccount_lastname_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:21,2022-10-25 00:34:22,0.983s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_BankAccount_Mothers_Maiden_Name""), mothers_maiden_name_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:22,2022-10-25 00:34:23,0.812s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step2_BankAccount_Account_Number""), account_number_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:23,2022-10-25 00:34:24,0.810s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step2_Bank_Name""))",Chrome 106.0.0.0,,,2022-10-25 00:34:24,2022-10-25 00:34:24,0.435s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step2_Bank_Name""), bank_name_step2)",Chrome 106.0.0.0,,,2022-10-25 00:34:24,2022-10-25 00:34:25,0.987s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step2_Bank_Name""))",Chrome 106.0.0.0,,,2022-10-25 00:34:25,2022-10-25 00:34:25,0.345s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/button_step2_Next""))",Chrome 106.0.0.0,,,2022-10-25 00:34:25,2022-10-25 00:34:26,0.600s,PASSED
+"verifyElementText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/message_success""), ""success"", CONTINUE_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-25 00:34:26,2022-10-25 00:34:27,0.577s,PASSED
+,,,,,,,
+Test Cases/E2E Test Cases/E2E_TC005_KS_New_Loan_Application_Step3,Chrome 106.0.0.0,End to end test case for new loan application step 3,,2022-10-25 00:34:27,2022-10-25 00:35:51,1m - 24.712s,FAILED
+"verifyElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Steps123/text_step3_PersonalReference1""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:34:27,2022-10-25 00:34:31,3.854s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step3_PersonalReference1_Name""), reference_1_name_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:31,2022-10-25 00:34:32,0.994s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step3_PersonalReference1_Phone_Number""), reference_1_phone_number_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:32,2022-10-25 00:34:33,0.955s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step3_PersonalReference1_Relation""))",Chrome 106.0.0.0,,,2022-10-25 00:34:33,2022-10-25 00:34:33,0.525s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step3_PersonalReference1_Relation""), reference_1_relation_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:33,2022-10-25 00:34:34,1.028s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step3_PersonalReference1_Relation""))",Chrome 106.0.0.0,,,2022-10-25 00:34:34,2022-10-25 00:34:35,0.293s,PASSED
+"verifyElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Steps123/text_step3_PersonalReference2""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:34:35,2022-10-25 00:34:35,0.537s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step3_PersonalReference2_Name""), reference_2_name_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:35,2022-10-25 00:34:36,0.999s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step3_PersonalReference2_Phone_Number""), reference_2_phone_number_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:36,2022-10-25 00:34:37,0.859s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step3_PersonalReference2_Relation""))",Chrome 106.0.0.0,,,2022-10-25 00:34:37,2022-10-25 00:34:38,0.586s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step3_PersonalReference2_Relation""), reference_2_relation_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:38,2022-10-25 00:34:39,0.944s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step3_PersonalReference2_Relation""))",Chrome 106.0.0.0,,,2022-10-25 00:34:39,2022-10-25 00:34:39,0.497s,PASSED
+"verifyElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Steps123/text_step3_PersonalReference3""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:34:39,2022-10-25 00:34:40,0.611s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step3_PersonalReference3_Name""), reference_3_name_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:40,2022-10-25 00:34:40,0.590s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step3_PersonalReference3_Phone_Number""), reference_3_phone_number_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:40,2022-10-25 00:34:41,0.932s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step3_PersonalReference3_Relation""))",Chrome 106.0.0.0,,,2022-10-25 00:34:41,2022-10-25 00:34:41,0.299s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step3_PersonalReference3_Relation""), reference_3_relation_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:41,2022-10-25 00:34:42,0.920s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step3_PersonalReference3_Relation""))",Chrome 106.0.0.0,,,2022-10-25 00:34:42,2022-10-25 00:34:43,0.429s,PASSED
+"verifyElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Steps123/text_step3_PersonalReference4""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:34:43,2022-10-25 00:34:43,0.482s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step3_PersonalReference4_Name""), reference_4_name_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:43,2022-10-25 00:34:44,0.719s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/input_step3_PersonalReference4_Phone_Number""), reference_4_phone_number_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:44,2022-10-25 00:34:45,0.796s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_step3_PersonalReference4_Relation""))",Chrome 106.0.0.0,,,2022-10-25 00:34:45,2022-10-25 00:34:45,0.544s,PASSED
+"setText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_input_step3_PersonalReference4_Relation""), reference_4_relation_step3)",Chrome 106.0.0.0,,,2022-10-25 00:34:45,2022-10-25 00:34:46,0.931s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/dropdown_select_step3_PersonalReference4_Relation""))",Chrome 106.0.0.0,,,2022-10-25 00:34:46,2022-10-25 00:34:47,0.492s,PASSED
+"verifyElementPresent(findTestObject(""E2E_KS_New_Loan_Application_Steps123/label_step3_Terms_And_Conditions""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:34:47,2022-10-25 00:34:47,0.484s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/checkbox_step3_Terms_And_Conditions""))",Chrome 106.0.0.0,,,2022-10-25 00:34:47,2022-10-25 00:34:48,0.323s,PASSED
+"click(findTestObject(""E2E_KS_New_Loan_Application_Steps123/button_step3_Submit""))",Chrome 106.0.0.0,,,2022-10-25 00:34:48,2022-10-25 00:34:48,0.298s,PASSED
+"if (verifyElementText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/message_step3_Please_Check_Authorization""), ""Please check authorization"", OPTIONAL))",Chrome 106.0.0.0,,,2022-10-25 00:34:48,2022-10-25 00:35:19,31.459s,PASSED
+"verifyElementText(findTestObject(""E2E_KS_New_Loan_Application_Steps123/message_success""), ""success"")",Chrome 106.0.0.0,,,2022-10-25 00:35:19,2022-10-25 00:35:51,32.109s,FAILED
+,,,,,,,
+Test Cases/KayamoSite_Functional/KS_Logout,Chrome 106.0.0.0,Reusable script for Kayamosite logout,logout,2022-10-25 00:35:51,2022-10-25 00:35:57,5.457s,PASSED
+"mouseOver(findTestObject(""KayamoSite_Profile_Page/Icon_Profile""))",Chrome 106.0.0.0,,,2022-10-25 00:35:52,2022-10-25 00:35:52,0.628s,PASSED
+"click(findTestObject(""KayamoSite_Profile_Page/submenu_Button_Log out""))",Chrome 106.0.0.0,,,2022-10-25 00:35:52,2022-10-25 00:35:53,0.652s,PASSED
+"click(findTestObject(""KayamoSite_Profile_Page/Button_YES""))",Chrome 106.0.0.0,,,2022-10-25 00:35:53,2022-10-25 00:35:56,3.321s,PASSED
+"verifyElementNotPresent(findTestObject(""KayamoSite_Profile_Page/Icon_Profile""), 0)",Chrome 106.0.0.0,,,2022-10-25 00:35:56,2022-10-25 00:35:57,0.457s,PASSED
+closeBrowser(),Chrome 106.0.0.0,,,2022-10-25 00:35:57,2022-10-25 00:35:57,0.191s,PASSED

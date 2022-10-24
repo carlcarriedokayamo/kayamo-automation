@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BO_TS002_CollectionCenter_View" time="64.072" tests="3" failures="1" skips="0" errors="0">
+   <testsuite name="BO_TS002_CollectionCenter_View" tests="3" failures="1" errors="0" time="64.072" skips="0" timestamp="2022-10-24 18:05:04" hostname="carlcarriedo - 192.168.1.2" id="Test Suites/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446"/>
+         <property name="logFiles" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/execution0.log"/>
+         <property name="attachments" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/1666605923859.png, /Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/1666605925627.png, /Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/1666605932069.png, /Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/1666605964846.png, /Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/1666605965250.png"/>
+         <property name="hostName" value="carlcarriedo - 192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="e055f59d4c20b8a2cd2b3fedb68454d9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/BackOffice_Functional/BO_Login" time="18.715" classname="Test Cases/BackOffice_Functional/BO_Login" status="PASSED">
+         <system-out><![CDATA[2022-10-24 18:05:05 - [TEST_CASE][PASSED] - Test Cases/BackOffice_Functional/BO_Login: Test Cases/BackOffice_Functional/BO_Login
+
+2022-10-24 18:05:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-24 18:05:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-24 18:05:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-24 18:05:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-24 18:05:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-24 18:05:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-24 18:05:11 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://uat-admin.kayamo.com.ph/auth/login' successfully
+
+2022-10-24 18:05:16 - [MESSAGE][PASSED] - Navigate to 'https://uat-admin.kayamo.com.ph/auth/login' successfully
+
+2022-10-24 18:05:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Username"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 18:05:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 18:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 18:05:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BackOffice/Login_Logout/input_Username"), username): Text 'kayamo888' is set on object 'Object Repository/BackOffice/Login_Logout/input_Username'
+
+2022-10-24 18:05:18 - [MESSAGE][PASSED] - Text 'kayamo888' is set on object 'Object Repository/BackOffice/Login_Logout/input_Username'
+
+2022-10-24 18:05:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Password"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 18:05:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 18:05:18 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 18:05:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BackOffice/Login_Logout/input_Password"), password): Text 'KingBadger' is set on object 'Object Repository/BackOffice/Login_Logout/input_Password'
+
+2022-10-24 18:05:19 - [MESSAGE][PASSED] - Text 'KingBadger' is set on object 'Object Repository/BackOffice/Login_Logout/input_Password'
+
+2022-10-24 18:05:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/Login_Logout/button_Login")): Object: 'Object Repository/BackOffice/Login_Logout/button_Login' is clicked on
+
+2022-10-24 18:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/Login_Logout/button_Login' is clicked on
+
+2022-10-24 18:05:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BackOffice/Login_Logout/profile_Name"), profile_name): Actual text and expected text of test object 'Object Repository/BackOffice/Login_Logout/profile_Name' are matched.
+
+2022-10-24 18:05:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BackOffice/Login_Logout/profile_Name' are matched.
+
+2022-10-24 18:05:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-10-24 18:05:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/1666605923859.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View" time="40.912" classname="Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View" status="FAILED">
+         <failure type="FAILED" message="Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Status' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605886602.run(TempTestSuite1666605886602.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BackOffice/BO_Collection_Center/table_Status' located by '//*[@type = 'button' and (text() = '${table_status}' or . = '${table_status}')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-10-24 18:05:24 - [TEST_CASE][FAILED] - Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View: Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Status' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605886602.run(TempTestSuite1666605886602.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BackOffice/BO_Collection_Center/table_Status' located by '//*[@type = 'button' and (text() = '${table_status}' or . = '${table_status}')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-10-24 18:05:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-10-24 18:05:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/1666605925627.png]]
+
+2022-10-24 18:05:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/BO_Collection_Center/menu_Collection center")): Object: 'Object Repository/BackOffice/BO_Collection_Center/menu_Collection center' is clicked on
+
+2022-10-24 18:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/BO_Collection_Center/menu_Collection center' is clicked on
+
+2022-10-24 18:05:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/BO_Collection_Center/submenu_All cases")): Object: 'Object Repository/BackOffice/BO_Collection_Center/submenu_All cases' is clicked on
+
+2022-10-24 18:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/BO_Collection_Center/submenu_All cases' is clicked on
+
+2022-10-24 18:05:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number"), loan_number): Text '9849' is set on object 'Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number'
+
+2022-10-24 18:05:30 - [MESSAGE][PASSED] - Text '9849' is set on object 'Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number'
+
+2022-10-24 18:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/BO_Collection_Center/button_Search")): Object: 'Object Repository/BackOffice/BO_Collection_Center/button_Search' is clicked on
+
+2022-10-24 18:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/BO_Collection_Center/button_Search' is clicked on
+
+2022-10-24 18:05:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-10-24 18:05:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/1666605932069.png]]
+
+2022-10-24 18:05:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BackOffice/BO_Merchant_Loan_Center/table_Loan_Number"), table_loan_number): Actual text and expected text of test object 'Object Repository/BackOffice/BO_Merchant_Loan_Center/table_Loan_Number' are matched.
+
+2022-10-24 18:05:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BackOffice/BO_Merchant_Loan_Center/table_Loan_Number' are matched.
+
+2022-10-24 18:05:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BackOffice/BO_Collection_Center/table_Mobile_Number"), table_mobile_number): Actual text and expected text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Mobile_Number' are matched.
+
+2022-10-24 18:05:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Mobile_Number' are matched.
+
+2022-10-24 18:05:33 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/BackOffice/BO_Collection_Center/table_Status"), table_status): Verify element text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Status' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Status' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605886602.run(TempTestSuite1666605886602.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BackOffice/BO_Collection_Center/table_Status' located by '//*[@type = 'button' and (text() = '${table_status}' or . = '${table_status}')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2022-10-24 18:06:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'button' and (text() = '${table_status}' or . = '${table_status}')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-10-24 18:06:05 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BackOffice/BO_Collection_Center/table_Status' located by '//*[@type = 'button' and (text() = '${table_status}' or . = '${table_status}')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BackOffice/BO_Collection_Center/table_Status' located by '//*[@type = 'button' and (text() = '${table_status}' or . = '${table_status}')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605886602.run(TempTestSuite1666605886602.groovy:39)
+)
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/1666605964846.png]]
+
+2022-10-24 18:06:05 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Status' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Status' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605886602.run(TempTestSuite1666605886602.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BackOffice/BO_Collection_Center/table_Status' located by '//*[@type = 'button' and (text() = '${table_status}' or . = '${table_status}')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_180446/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_180446/1666605965250.png]]]]></system-out>
+         <system-err><![CDATA[2022-10-24 18:05:24 - [TEST_CASE][FAILED] - Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View: Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Status' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605886602.run(TempTestSuite1666605886602.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BackOffice/BO_Collection_Center/table_Status' located by '//*[@type = 'button' and (text() = '${table_status}' or . = '${table_status}')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BackOffice_Functional/BO_Logout" time="2.495" classname="Test Cases/BackOffice_Functional/BO_Logout" status="PASSED">
+         <system-out><![CDATA[2022-10-24 18:06:05 - [TEST_CASE][PASSED] - Test Cases/BackOffice_Functional/BO_Logout: Test Cases/BackOffice_Functional/BO_Logout
+
+2022-10-24 18:06:05 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/Login_Logout/profile_icon")): Object: 'Object Repository/BackOffice/Login_Logout/profile_icon' is clicked on
+
+2022-10-24 18:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/Login_Logout/profile_icon' is clicked on
+
+2022-10-24 18:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/Login_Logout/profile_logout")): Object: 'Object Repository/BackOffice/Login_Logout/profile_logout' is clicked on
+
+2022-10-24 18:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/Login_Logout/profile_logout' is clicked on
+
+2022-10-24 18:06:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Username"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 18:06:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 18:06:07 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 18:06:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Password"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 18:06:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 18:06:07 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 18:06:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-24 18:06:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-24 18:05:04 - [TEST_SUITE][FAILED] - BO_TS002_CollectionCenter_View: Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Status' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605886602.run(TempTestSuite1666605886602.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BackOffice/BO_Collection_Center/table_Status' located by '//*[@type = 'button' and (text() = '${table_status}' or . = '${table_status}')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-10-24 18:05:04 - [TEST_SUITE][FAILED] - BO_TS002_CollectionCenter_View: Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Status' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4120)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at BO_TC002_CollectionCenter_View.run(BO_TC002_CollectionCenter_View:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1666605886602.run(TempTestSuite1666605886602.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BackOffice/BO_Collection_Center/table_Status' located by '//*[@type = 'button' and (text() = '${table_status}' or . = '${table_status}')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

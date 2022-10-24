@@ -1,5 +1,5 @@
 /* Author: Carlito Carriedo
- * Created Date: October 11, 2022
+ * Initial create date: October 11, 2022
  * Description: Test case for logging in Kayamo site
  */
 
@@ -26,57 +26,59 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+WebUI.deleteAllCookies()
+
 WebUI.navigateToUrl(url)
 
-WebUI.waitForElementVisible(findTestObject('Desktop_Home_Page/promotion_Alert'), 0)
+WebUI.waitForElementVisible(findTestObject('KayamoSite_Home_Page/promotion_Alert'), 0)
 
-WebUI.click(findTestObject('Desktop_Home_Page/promotion_Alert'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/promotion_Alert'))
 
-WebUI.waitForElementVisible(findTestObject('Desktop_Home_Page/menu_Login_or_Signup'), 0)
+WebUI.waitForElementVisible(findTestObject('KayamoSite_Home_Page/menu_Login_or_Signup'), 0)
 
-WebUI.click(findTestObject('Desktop_Home_Page/menu_Login_or_Signup'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/menu_Login_or_Signup'))
 
-WebUI.waitForElementVisible(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_mobile_number'), 0)
+WebUI.waitForElementVisible(findTestObject('KayamoSite_Home_Page/input_LogIn_SignUp_mobile_number'), 0)
 
-WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_mobile_number'), phone_number)
+WebUI.setText(findTestObject('KayamoSite_Home_Page/input_LogIn_SignUp_mobile_number'), phone_number)
 
-WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP1'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/input_LogInSignUp_OTP1'))
 
-WebUI.setText(findTestObject('Desktop_Profile_Page/input_Log In  Sign Up_verification_code'), verification_code1)
+WebUI.setText(findTestObject('KayamoSite_Profile_Page/input_Log In  Sign Up_verification_code'), verification_code1)
 
-WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP2'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/input_LogInSignUp_OTP2'))
 
-WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_verification_code'), verification_code2)
+WebUI.setText(findTestObject('KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'), verification_code2)
 
-WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP3'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/input_LogInSignUp_OTP3'))
 
-WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_verification_code'), verification_code3)
+WebUI.setText(findTestObject('KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'), verification_code3)
 
-WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP4'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/input_LogInSignUp_OTP4'))
 
-WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_verification_code'), verification_code4)
+WebUI.setText(findTestObject('KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'), verification_code4)
 
-WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP5'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/input_LogInSignUp_OTP5'))
 
-WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_verification_code'), verification_code5)
+WebUI.setText(findTestObject('KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'), verification_code5)
 
-WebUI.click(findTestObject('Desktop_Home_Page/input_LogInSignUp_OTP6'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/input_LogInSignUp_OTP6'))
 
-WebUI.setText(findTestObject('Desktop_Home_Page/input_LogIn_SignUp_verification_code'), verification_code6)
+WebUI.setText(findTestObject('KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'), verification_code6)
 
-WebUI.click(findTestObject('Desktop_Home_Page/Checkbox_I agree with the terms of use of Kayamo'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/Checkbox_I agree with the terms of use of Kayamo'))
 
-WebUI.click(findTestObject('Desktop_Home_Page/Button_Accept_Terms_Conditions'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/Button_Accept_Terms_Conditions'))
 
-WebUI.click(findTestObject('Desktop_Home_Page/Button_Log In Sign Up'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/Button_Log In Sign Up'))
 
-WebUI.verifyElementPresent(findTestObject('Desktop_Profile_Page/Icon_Profile'), 0)
+WebUI.verifyElementPresent(findTestObject('KayamoSite_Profile_Page/Icon_Profile'), 0)
 
-WebUI.click(findTestObject('Desktop_Profile_Page/Icon_Profile'))
+WebUI.click(findTestObject('KayamoSite_Profile_Page/Icon_Profile'))
 
-WebUI.verifyElementText(findTestObject('Desktop_Profile_Page/Profile_Name'), profile_name)
+WebUI.verifyElementText(findTestObject('KayamoSite_Profile_Page/Profile_Name'), profile_name)
 
-WebUI.verifyElementText(findTestObject('Desktop_Profile_Page/Profile_PhoneNumber'), profile_phone_number)
+CustomKeywords.'genericKeywords.genericKeywords.textContains'(WebUI.getText(findTestObject('KayamoSite_Profile_Page/Profile_PhoneNumber')), profile_phone_number)
 
 WebUI.takeScreenshot()
 

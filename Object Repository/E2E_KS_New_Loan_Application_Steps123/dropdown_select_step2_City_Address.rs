@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_select_step2_City_Address</name>
+   <tag></tag>
+   <elementGuidId>c25dda71-f83a-4585-9505-dfcbd2e914d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li[value=&quot;1234&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@value='Aborlan']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Aborlan' or . = 'Aborlan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>1234</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aborlan</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shop_address&quot;)/div[@class=&quot;col-sm-12 col-lg-7 pc-pl5&quot;]/div[@class=&quot;select_country&quot;]/div[@class=&quot;cy_wrap&quot;]/ul[@class=&quot;cy_list&quot;]/li[1]</value>
+   </webElementProperties>
+</WebElementEntity>

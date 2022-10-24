@@ -11,26 +11,21 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='loan_number']</value>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'loan_number']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2b8027c4-35d5-4501-b576-338c0e58ce40</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>832d347f-ba77-40ab-8c78-b973612eebf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,55 +33,6 @@
       <name>id</name>
       <type>Main</type>
       <value>loan_number</value>
-      <webElementGuid>6fced6d2-4a10-4a1a-afb3-d53d84498d9d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>loan_number</value>
-      <webElementGuid>5ab2c2a1-3c9a-4ced-847e-9eb738546fe7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control </value>
-      <webElementGuid>668e1020-b800-498e-8bea-76414b82e3c5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;loan_number&quot;)</value>
-      <webElementGuid>fea51d04-7073-460a-9443-9cd5004dda05</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-      <webElementGuid>241422d3-c654-4dea-9c33-929623f5a8bc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>8f4d52a8-a6b3-4a1f-afa6-8f7fbc720842</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>loan_number</value>
-      <webElementGuid>203da35a-3406-49cf-be9e-f456d5555ca6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +40,6 @@
       <name>name</name>
       <type>Main</type>
       <value>loan_number</value>
-      <webElementGuid>4387e456-a8ec-4d7d-9b5a-82cd97b41fc6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +47,6 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control </value>
-      <webElementGuid>217e271c-7ae7-4dd7-9a2c-2e232281b9f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,30 +54,5 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loan_number&quot;)</value>
-      <webElementGuid>6cc45312-af57-4d36-9651-cb7291bd5b9e</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='loan_number']</value>
-      <webElementGuid>f849b413-bf84-4a9c-b231-418c26ec7a25</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>41aacf9f-ac0a-44ae-988f-98482e3c5762</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'loan_number' and @name = 'loan_number']</value>
-      <webElementGuid>6dc5852c-941a-4da6-b7ff-be2775c5fa1d</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

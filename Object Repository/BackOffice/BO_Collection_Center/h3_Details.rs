@@ -11,18 +11,21 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Information'])[1]/preceding::h3[1]</value>
+         <value>//h3[(text() = 'Details' or . = 'Details')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h3[(text() = 'Details' or . = 'Details')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>14283c01-37b3-4d8a-9557-17c5ccd78b6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,54 +33,12 @@
       <name>text</name>
       <type>Main</type>
       <value>Details</value>
-      <webElementGuid>8182cedb-d900-4a01-90b5-253e7e4b7d52</webElementGuid>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[@class=&quot;nav-md&quot;]/div[@class=&quot;container body&quot;]/div[@class=&quot;main_container&quot;]/div[@class=&quot;right_col&quot;]/div[@class=&quot;page-title&quot;]/div[@class=&quot;title_left&quot;]/h3[1]</value>
-      <webElementGuid>925504e6-978f-4e1c-a669-289710a358e4</webElementGuid>
-   </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Information'])[1]/preceding::h3[1]</value>
-      <webElementGuid>2555eaaa-8976-4291-ac93-1b1dd119baf5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan number：9849'])[1]/preceding::h3[1]</value>
-      <webElementGuid>b7caa4ed-d9f2-4026-829f-4616cad84a54</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Details']/parent::*</value>
-      <webElementGuid>57ecf56d-1103-45e0-b812-0844237d131d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//h3</value>
-      <webElementGuid>1a9969d7-654f-4854-b1ce-99242e7e16dd</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Details' or . = 'Details')]</value>
-      <webElementGuid>23fe4f92-9adf-4267-98f4-e0c491f03c4f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

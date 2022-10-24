@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>This test is to validate the logout functionality</description>
+   <description>Reusable script for Kayamosite logout</description>
    <name>KS_Logout</name>
    <tag>logout</tag>
    <comment></comment>

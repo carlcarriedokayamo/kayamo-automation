@@ -18,58 +18,57 @@
       <testCaseId>Test Cases/KayamoSite_Functional/KS_TC001_Signup_Login_Invalid_Verification_Code</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>5527ae17-135b-4edd-9123-795225a1a431</id>
+         <id>76fafcf0-6613-43aa-ba2b-683adc2727ab</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
             <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/KayamoSite_Dataset/KayamoSite_Dataset_HomePage</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>5527ae17-135b-4edd-9123-795225a1a431</testDataLinkId>
+         <testDataLinkId>76fafcf0-6613-43aa-ba2b-683adc2727ab</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>phone_number</value>
          <variableId>21aab2f3-4e77-4eab-83b9-39fd807d040e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5527ae17-135b-4edd-9123-795225a1a431</testDataLinkId>
+         <testDataLinkId>76fafcf0-6613-43aa-ba2b-683adc2727ab</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code1</value>
          <variableId>fc4baea5-12ea-452b-bd45-0ff0304885e0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5527ae17-135b-4edd-9123-795225a1a431</testDataLinkId>
+         <testDataLinkId>76fafcf0-6613-43aa-ba2b-683adc2727ab</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code2</value>
          <variableId>8fba2618-3cc2-4080-8790-57c7f47c51c0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5527ae17-135b-4edd-9123-795225a1a431</testDataLinkId>
+         <testDataLinkId>76fafcf0-6613-43aa-ba2b-683adc2727ab</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code3</value>
          <variableId>f3195da3-a15f-4ff5-b0f9-56b811552c64</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5527ae17-135b-4edd-9123-795225a1a431</testDataLinkId>
+         <testDataLinkId>76fafcf0-6613-43aa-ba2b-683adc2727ab</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code4</value>
          <variableId>8b578377-82ec-4300-8d13-d0930e09b094</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5527ae17-135b-4edd-9123-795225a1a431</testDataLinkId>
+         <testDataLinkId>76fafcf0-6613-43aa-ba2b-683adc2727ab</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code5</value>
          <variableId>48295046-fc20-42b5-ba89-460ca4d6c718</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5527ae17-135b-4edd-9123-795225a1a431</testDataLinkId>
+         <testDataLinkId>76fafcf0-6613-43aa-ba2b-683adc2727ab</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code6</value>
          <variableId>30999273-ec80-4394-85b0-504d08016026</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>5527ae17-135b-4edd-9123-795225a1a431</testDataLinkId>
+         <testDataLinkId>76fafcf0-6613-43aa-ba2b-683adc2727ab</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>url</value>
          <variableId>aa155f0b-725d-4a4c-aceb-d3ef2d9dc67a</variableId>
@@ -82,70 +81,69 @@
       <testCaseId>Test Cases/KayamoSite_Functional/KS_TC002_Signup_Login_Valid_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>39bacaa3-3b91-4df3-b544-8c84c64455b3</id>
+         <id>4a421098-de20-4b86-a44e-a4542cd0b51c</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
             <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/KayamoSite_Dataset/KayamoSite_Dataset_HomePage</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>39bacaa3-3b91-4df3-b544-8c84c64455b3</testDataLinkId>
+         <testDataLinkId>4a421098-de20-4b86-a44e-a4542cd0b51c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>phone_number</value>
          <variableId>68397658-0561-44e1-8143-4b22b9e2328d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>39bacaa3-3b91-4df3-b544-8c84c64455b3</testDataLinkId>
+         <testDataLinkId>4a421098-de20-4b86-a44e-a4542cd0b51c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code1</value>
          <variableId>385ccad8-5af5-454b-8846-088295945a66</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>39bacaa3-3b91-4df3-b544-8c84c64455b3</testDataLinkId>
+         <testDataLinkId>4a421098-de20-4b86-a44e-a4542cd0b51c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code2</value>
          <variableId>3c7a260e-f9df-4f85-8d71-029447c549ba</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>39bacaa3-3b91-4df3-b544-8c84c64455b3</testDataLinkId>
+         <testDataLinkId>4a421098-de20-4b86-a44e-a4542cd0b51c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code3</value>
          <variableId>bc3d1292-88f2-4e39-91d0-891ea6b579e2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>39bacaa3-3b91-4df3-b544-8c84c64455b3</testDataLinkId>
+         <testDataLinkId>4a421098-de20-4b86-a44e-a4542cd0b51c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code4</value>
          <variableId>aa72d9c7-53e3-4ef1-a71f-5f584d85545c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>39bacaa3-3b91-4df3-b544-8c84c64455b3</testDataLinkId>
+         <testDataLinkId>4a421098-de20-4b86-a44e-a4542cd0b51c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code5</value>
          <variableId>8b3e8ed7-b6ac-4bf3-a9b3-1538c3da0c32</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>39bacaa3-3b91-4df3-b544-8c84c64455b3</testDataLinkId>
+         <testDataLinkId>4a421098-de20-4b86-a44e-a4542cd0b51c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>verification_code6</value>
          <variableId>d86d24ad-8f34-48d9-a4ea-e03c78a75813</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>39bacaa3-3b91-4df3-b544-8c84c64455b3</testDataLinkId>
+         <testDataLinkId>4a421098-de20-4b86-a44e-a4542cd0b51c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>url</value>
          <variableId>b78ce092-3848-4df6-a6c2-76e1c2c4ec9d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>39bacaa3-3b91-4df3-b544-8c84c64455b3</testDataLinkId>
+         <testDataLinkId>4a421098-de20-4b86-a44e-a4542cd0b51c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>profile_name</value>
          <variableId>86ab8ad0-09d0-4c40-a643-3a06ae4cfb81</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>39bacaa3-3b91-4df3-b544-8c84c64455b3</testDataLinkId>
+         <testDataLinkId>4a421098-de20-4b86-a44e-a4542cd0b51c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>profile_phone_number</value>
          <variableId>cf9b5a0a-17b5-45cd-a90b-0cee7ad43a82</variableId>
@@ -156,13 +154,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/KayamoSite_Functional/KS_Logout</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>dd6efeee-711b-4e51-8781-843482117d6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/KayamoSite_Functional/KS_TC003_Chatbot</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>E2E_TC008_KS_New_Loan_Approved_Checking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1c83b2e-f606-459d-864b-02543cf704ee</testCaseGuid>
+</TestCaseEntity>

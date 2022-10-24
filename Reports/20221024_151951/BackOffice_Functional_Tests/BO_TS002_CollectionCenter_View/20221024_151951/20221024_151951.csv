@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BO_TS002_CollectionCenter_View,,Executes BO_TC002_CollectionCenter_View,,2022-10-24 15:20:10,2022-10-24 15:20:16,6.015s,ERROR
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_Login,,Reusable script for backoffice login,,2022-10-24 15:20:11,2022-10-24 15:20:15,3.942s,FAILED
+"openBrowser("""")",,,,2022-10-24 15:20:11,2022-10-24 15:20:15,3.540s,FAILED
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View,,https://kayamo.atlassian.net/browse/KS-219,,2022-10-24 15:20:15,2022-10-24 15:20:16,0.425s,ERROR
+takeScreenshot(),,,,2022-10-24 15:20:16,2022-10-24 15:20:16,0.065s,PASSED
+,,,,,,,
+Test Cases/BackOffice_Functional/BO_Logout,,Reusable script for backoffice logout,,2022-10-24 15:20:16,2022-10-24 15:20:16,0.359s,FAILED
+"click(findTestObject(""BackOffice/Login_Logout/profile_icon""))",,,,2022-10-24 15:20:16,2022-10-24 15:20:16,0.160s,FAILED

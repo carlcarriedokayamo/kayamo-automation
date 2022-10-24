@@ -5,8 +5,8 @@
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>2380b9d4-fbc8-4a1d-a5e7-25c329e86236</dataFileGUID>
-   <dataSourceUrl>/Users/carlcarriedo/Documents/Katalon Automation/Kayamo Automation/Data Files/BackOffice_Dataset/BackOffice_Dataset.xls</dataSourceUrl>
+   <dataFileGUID>609f6d75-39ab-4c5b-b587-6571315bd5bf</dataFileGUID>
+   <dataSourceUrl>/Users/carlcarriedo/git/kayamo-automation/Data Files/BackOffice_Dataset/BackOffice_Dataset_File.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

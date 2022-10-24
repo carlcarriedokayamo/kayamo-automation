@@ -10,85 +10,27 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Old'])[2]/following::td[2]</value>
+         <value>//td[(text() = '${table_mobile_number}' or . = '${table_mobile_number}')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '9227628733' or . = '9227628733')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>aa05cb0e-574d-459e-b3a4-263b00886021</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>9227628733</value>
-      <webElementGuid>5b8c3fc1-8eba-454b-84e4-30855201ed2e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[@class=&quot;nav-md&quot;]/div[@class=&quot;container body&quot;]/div[@class=&quot;main_container&quot;]/div[@class=&quot;right_col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;x_panel&quot;]/div[@class=&quot;x_content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;table-responsive col-sm-12&quot;]/table[@class=&quot;table table-hover gray_table&quot;]/tbody[1]/tr[1]/td[7]</value>
-      <webElementGuid>98af1a29-4f09-4fe6-a134-c6a6357bfed5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Old'])[2]/following::td[2]</value>
-      <webElementGuid>c3ed40ff-5e67-4dd3-9545-04898635b41e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchant Loan'])[1]/preceding::td[1]</value>
-      <webElementGuid>e6e3277f-8e5b-4896-8f05-d9927c895607</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='P 22,000'])[1]/preceding::td[2]</value>
-      <webElementGuid>7e31df28-a0f0-403e-9dba-c9ca818cc2f1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='9227628733']/parent::*</value>
-      <webElementGuid>58d42b5e-878f-47b7-bddf-35024a64e306</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td[7]</value>
-      <webElementGuid>c32483ac-4e93-40fa-92db-87a33a0954cf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//td[(text() = '9227628733' or . = '9227628733')]</value>
-      <webElementGuid>9a9454ee-75ef-4665-93b7-2785c9abdf59</webElementGuid>
+      <value>//table[@class=&quot;table table-hover gray_table&quot;]/tbody[1]/tr[1]/td[7]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,109 +11,20 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>//table[@class=&quot;table table-hover gray_table&quot;]/tbody[1]/tr[1]/td[16]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Overdue' or . = 'Overdue')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>5bda7f51-839b-4862-87b8-451399e0458a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9b1b2f05-797e-47e6-a8a0-0dc7bdbfb9c1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-danger btn-xs mg-0</value>
-      <webElementGuid>7b0c147f-3222-4f65-b5e4-ce0eedaf098d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Overdue</value>
-      <webElementGuid>0a1ac595-af67-4f86-9c72-e6c95279fea6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[@class=&quot;nav-md&quot;]/div[@class=&quot;container body&quot;]/div[@class=&quot;main_container&quot;]/div[@class=&quot;right_col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;x_panel&quot;]/div[@class=&quot;x_content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;table-responsive col-sm-12&quot;]/table[@class=&quot;table table-hover gray_table&quot;]/tbody[1]/tr[1]/td[16]/button[@class=&quot;btn btn-danger btn-xs mg-0&quot;]</value>
-      <webElementGuid>0f587e67-8661-4a8c-96f4-f499ad8fcb40</webElementGuid>
-   </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>57a1e9d3-f950-404e-a6a3-71585a6c717e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Equal capital and equal interest'])[1]/following::button[1]</value>
-      <webElementGuid>efcd0cfb-6d0e-4205-ae84-e4fb6769b42f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kayamo'])[3]/following::button[1]</value>
-      <webElementGuid>496f8e00-6a34-4467-898f-0f1fe5ae31cd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/preceding::button[1]</value>
-      <webElementGuid>b38a40ca-28ee-498e-98f6-dd2a846adb6f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total 1 Records'])[1]/preceding::button[1]</value>
-      <webElementGuid>46e13ffa-2f6e-47ce-ac99-81fd77096b06</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td[16]/button</value>
-      <webElementGuid>3f9a220e-f9c6-438c-8c5c-361686f3c488</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Overdue' or . = 'Overdue')]</value>
-      <webElementGuid>73c69a50-5b50-4ffc-be9a-77dda147c15b</webElementGuid>
+      <value>//table[@class=&quot;table table-hover gray_table&quot;]/tbody[1]/tr[1]/td[16]</value>
    </webElementXpaths>
 </WebElementEntity>

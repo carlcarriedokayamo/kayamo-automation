@@ -1,9 +1,9 @@
-/* Author: Carlito Carriedo
+ /* Author: Carlito Carriedo
  * Created Date: October 10, 2022
  * Description: Test case for https://kayamo.atlassian.net/browse/KS-219
- */
+ */ 
 
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/BackOffice/BO_Collection_Center/bu
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementText(findTestObject('Object Repository/BackOffice/BO_Collection_Center/table_Loan_Number'), table_loan_number)
+WebUI.verifyElementText(findTestObject('BackOffice/BO_Merchant_Loan_Center/table_Loan_Number'), table_loan_number)
 
 WebUI.verifyElementText(findTestObject('BackOffice/BO_Collection_Center/table_Mobile_Number'), table_mobile_number)
 
@@ -53,7 +53,11 @@ WebUI.verifyElementText(findTestObject('Object Repository/BackOffice/BO_Collecti
 
 WebUI.verifyElementText(findTestObject('Object Repository/BackOffice/BO_Collection_Center/h2_Contact Reference'), h2_contact_reference)
 
-WebUI.verifyElementText(findTestObject('Object Repository/BackOffice/BO_Collection_Center/h2_collection_detail_logs'), h2_collection_detail_logs)
+WebUI.verifyElementText(findTestObject('Object Repository/BackOffice/BO_Collection_Center/table_Contact_Reference _Reference'), 'Relationship')
+
+WebUI.verifyElementText(findTestObject('BackOffice/BO_Collection_Center/h2_Collection_Detail_Logs'), h2_collection_detail_logs)
+
+WebUI.verifyElementText(findTestObject('Object Repository/BackOffice/BO_Collection_Center/table_CollectionDetailLogs_Created_Date'), 'Created Date')
 
 WebUI.verifyElementText(findTestObject('Object Repository/BackOffice/BO_Collection_Center/LoanInformation_Loan_Number'), 
     loaninformation_loan_number)
@@ -65,4 +69,3 @@ WebUI.verifyElementText(findTestObject('Object Repository/BackOffice/BO_Collecti
     personalcontaciInfo_mobile_number)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/BackOffice/BO_Collection_Center/ContactReference_Table'), 0)
-

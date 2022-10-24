@@ -18,34 +18,33 @@
       <testCaseId>Test Cases/BackOffice_Functional/BO_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>067243d4-6dc6-476c-856a-093bf6066db4</id>
+         <id>167e93fd-2850-4cc9-8d80-2b783b9584c0</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
             <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/BackOffice_Dataset/BackOffice_Dataset</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>067243d4-6dc6-476c-856a-093bf6066db4</testDataLinkId>
+         <testDataLinkId>167e93fd-2850-4cc9-8d80-2b783b9584c0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>8484b3a0-8dee-4449-aeef-fb76a8f8641b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>067243d4-6dc6-476c-856a-093bf6066db4</testDataLinkId>
+         <testDataLinkId>167e93fd-2850-4cc9-8d80-2b783b9584c0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>4a646262-e3f2-47f5-bb98-81c1095e9005</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>067243d4-6dc6-476c-856a-093bf6066db4</testDataLinkId>
+         <testDataLinkId>167e93fd-2850-4cc9-8d80-2b783b9584c0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>url</value>
          <variableId>584641b0-0379-414a-a936-7288f91b838b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>067243d4-6dc6-476c-856a-093bf6066db4</testDataLinkId>
+         <testDataLinkId>167e93fd-2850-4cc9-8d80-2b783b9584c0</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>profile_name</value>
          <variableId>b7e44bdc-e41f-4a48-8ee2-43b5b00764e1</variableId>
@@ -58,84 +57,83 @@
       <testCaseId>Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>1c946f56-e14b-48a1-9bc0-1760a84b5788</id>
+         <id>ae452131-8cdb-4c6b-826e-d2d46651111e</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
             <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/BackOffice_Dataset/BackOffice_Dataset</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>loan_number</value>
          <variableId>439f0509-76d0-4d10-b024-cee1715706e3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>table_loan_number</value>
          <variableId>17c2e62c-22d5-4e79-a491-b63fe26d30aa</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>table_status</value>
          <variableId>e8df25c2-cfec-425f-a609-e849a8ffd65e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>h3_details</value>
          <variableId>d87c18d0-807d-4fa2-b3e3-ac018df123b0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>h2_loan_information</value>
          <variableId>d39fc168-23d7-4ba5-a0b1-7c1486141fde</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>h2_personal_contact_information</value>
          <variableId>a7a83e71-8176-4006-aab9-b1ed06038b6d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>h2_contact_reference</value>
          <variableId>fc567f85-09ee-49f9-9e33-a008970c6603</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>h2_collection_detail_logs</value>
          <variableId>c312410b-5388-4480-8e2c-eb117000a5b8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>loaninformation_loan_number</value>
          <variableId>5fb85f68-3c44-468c-89ce-c31671cb9811</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>personalcontaciInfo_full_name</value>
          <variableId>148eef94-6abb-4c87-893d-faf8e598e164</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>personalcontaciInfo_mobile_number</value>
          <variableId>672dacff-f710-446e-89ee-8382f76a10cf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1c946f56-e14b-48a1-9bc0-1760a84b5788</testDataLinkId>
+         <testDataLinkId>ae452131-8cdb-4c6b-826e-d2d46651111e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>mobile_number</value>
+         <value>table_mobile_number</value>
          <variableId>8724c91f-d305-4bcf-9fbb-702148a3ce61</variableId>
       </variableLink>
    </testCaseLink>
@@ -144,6 +142,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BackOffice_Functional/BO_Logout</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

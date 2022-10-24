@@ -1,5 +1,5 @@
 /* Author: Carlito Carriedo
- * Created Date: October 13, 2022
+ * Initial create date: October 13, 2022
  * Description: Test case for logging out Kayamo site
  */
 
@@ -22,13 +22,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.mouseOver(findTestObject('Desktop_Profile_Page/Icon_Profile'))
+WebUI.mouseOver(findTestObject('KayamoSite_Profile_Page/Icon_Profile'))
 
-WebUI.click(findTestObject('Desktop_Profile_Page/submenu_Button_Log out'))
+WebUI.click(findTestObject('KayamoSite_Profile_Page/submenu_Button_Log out'))
 
-WebUI.click(findTestObject('Desktop_Profile_Page/Button_YES'))
+WebUI.click(findTestObject('KayamoSite_Profile_Page/Button_YES'))
 
-WebUI.verifyElementNotPresent(findTestObject('Desktop_Profile_Page/Icon_Profile'), 0)
+WebUI.verifyElementNotPresent(findTestObject('KayamoSite_Profile_Page/Icon_Profile'), 0)
 
 WebUI.closeBrowser()
 

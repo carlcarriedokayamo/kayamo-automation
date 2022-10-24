@@ -1,5 +1,5 @@
 /* Author: Carlito Carriedo
- * Created Date: October 14, 2022
+ * Initial create date: October 14, 2022
  * Description: Test case for https://kayamo.atlassian.net/browse/KS-234
  */
 
@@ -28,21 +28,21 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat.kayamo.com.ph/')
 
-WebUI.click(findTestObject('Desktop_Home_Page/Promotion_Alert'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/Promotion_Alert'))
 
-WebUI.verifyElementPresent(findTestObject('Desktop_Home_Page/chatbot_icon'), 0)
+WebUI.verifyElementPresent(findTestObject('KayamoSite_Home_Page/chatbot_icon'), 0)
 
-WebUI.click(findTestObject('Object Repository/Desktop_Home_Page/chatbot_icon'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/chatbot_icon'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Desktop_Home_Page/chatbot_field'), 0)
+WebUI.verifyElementPresent(findTestObject('KayamoSite_Home_Page/chatbot_field'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Desktop_Home_Page/chatbot_input_text_field'), 0)
+WebUI.verifyElementPresent(findTestObject('KayamoSite_Home_Page/chatbot_input_text_field'), 0)
 
-WebUI.sendKeys(findTestObject('Desktop_Home_Page/chatbot_input_text_field'), 'test')
+WebUI.sendKeys(findTestObject('KayamoSite_Home_Page/chatbot_input_text_field'), 'test')
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Desktop_Home_Page/chatbot_close'))
+WebUI.click(findTestObject('KayamoSite_Home_Page/chatbot_close'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_select_step1_Warehouse_City_Address</name>
+   <tag></tag>
+   <elementGuidId>6c54e225-50ca-4181-b744-41527be1fe3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li[value=&quot;1234&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@value='1234'])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Abucay'])[1]/preceding::li[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

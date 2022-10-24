@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KS_TS001_KayamoSite_Home_Page" time="36.69" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="KS_TS001_KayamoSite_Home_Page" tests="1" failures="0" errors="0" time="36.69" skips="0" timestamp="2022-10-24 13:36:41" hostname="carlcarriedo - 192.168.1.2" id="Test Suites/KayamoSite_Functional_Tests/KS_TS001_KayamoSite_Home_Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_133623/KayamoSite_Functional_Tests/KS_TS001_KayamoSite_Home_Page/20221024_133623"/>
+         <property name="logFiles" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_133623/KayamoSite_Functional_Tests/KS_TS001_KayamoSite_Home_Page/20221024_133623/execution0.log"/>
+         <property name="attachments" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_133623/KayamoSite_Functional_Tests/KS_TS001_KayamoSite_Home_Page/20221024_133623/1666589836680.png"/>
+         <property name="hostName" value="carlcarriedo - 192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="84690c7554d93be65a20d5b4d7d9130c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/KayamoSite_Functional/KS_TC001_Signup_Login_Invalid_Verification_Code" time="35.026" classname="Test Cases/KayamoSite_Functional/KS_TC001_Signup_Login_Invalid_Verification_Code" status="PASSED">
+         <system-out><![CDATA[2022-10-24 13:36:42 - [TEST_CASE][PASSED] - Test Cases/KayamoSite_Functional/KS_TC001_Signup_Login_Invalid_Verification_Code: Test Cases/KayamoSite_Functional/KS_TC001_Signup_Login_Invalid_Verification_Code
+
+2022-10-24 13:36:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-24 13:36:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-24 13:36:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-24 13:36:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-24 13:36:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-24 13:36:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-24 13:36:49 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2022-10-24 13:36:50 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2022-10-24 13:36:50 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://uat.kayamo.com.ph/' successfully
+
+2022-10-24 13:36:57 - [MESSAGE][PASSED] - Navigate to 'https://uat.kayamo.com.ph/' successfully
+
+2022-10-24 13:36:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("KayamoSite_Home_Page/promotion_Alert"), 0): Object 'Object Repository/KayamoSite_Home_Page/promotion_Alert' is visible
+
+2022-10-24 13:36:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 13:36:59 - [MESSAGE][PASSED] - Object 'Object Repository/KayamoSite_Home_Page/promotion_Alert' is visible
+
+2022-10-24 13:36:59 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/promotion_Alert")): Object: 'Object Repository/KayamoSite_Home_Page/promotion_Alert' is clicked on
+
+2022-10-24 13:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/promotion_Alert' is clicked on
+
+2022-10-24 13:37:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("KayamoSite_Home_Page/menu_Login_or_Signup"), 0): Object 'Object Repository/KayamoSite_Home_Page/menu_Login_or_Signup' is visible
+
+2022-10-24 13:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 13:37:02 - [MESSAGE][PASSED] - Object 'Object Repository/KayamoSite_Home_Page/menu_Login_or_Signup' is visible
+
+2022-10-24 13:37:02 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/menu_Login_or_Signup")): Object: 'Object Repository/KayamoSite_Home_Page/menu_Login_or_Signup' is clicked on
+
+2022-10-24 13:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/menu_Login_or_Signup' is clicked on
+
+2022-10-24 13:37:04 - [TEST_STEP][PASSED] - setText(findTestObject("KayamoSite_Home_Page/input_LogIn_SignUp_mobile_number"), phone_number): Text '9174432720' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_mobile_number'
+
+2022-10-24 13:37:06 - [MESSAGE][PASSED] - Text '9174432720' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_mobile_number'
+
+2022-10-24 13:37:06 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/input_LogInSignUp_OTP1")): Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP1' is clicked on
+
+2022-10-24 13:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP1' is clicked on
+
+2022-10-24 13:37:06 - [TEST_STEP][PASSED] - setText(findTestObject("KayamoSite_Profile_Page/input_Log In  Sign Up_verification_code"), verification_code1): Text '2' is set on object 'Object Repository/KayamoSite_Profile_Page/input_Log In  Sign Up_verification_code'
+
+2022-10-24 13:37:07 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/KayamoSite_Profile_Page/input_Log In  Sign Up_verification_code'
+
+2022-10-24 13:37:07 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/input_LogInSignUp_OTP2")): Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP2' is clicked on
+
+2022-10-24 13:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP2' is clicked on
+
+2022-10-24 13:37:07 - [TEST_STEP][PASSED] - setText(findTestObject("KayamoSite_Home_Page/input_LogIn_SignUp_verification_code"), verification_code2): Text '22' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'
+
+2022-10-24 13:37:09 - [MESSAGE][PASSED] - Text '22' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'
+
+2022-10-24 13:37:09 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/input_LogInSignUp_OTP3")): Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP3' is clicked on
+
+2022-10-24 13:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP3' is clicked on
+
+2022-10-24 13:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("KayamoSite_Home_Page/input_LogIn_SignUp_verification_code"), verification_code3): Text '223' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'
+
+2022-10-24 13:37:10 - [MESSAGE][PASSED] - Text '223' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'
+
+2022-10-24 13:37:10 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/input_LogInSignUp_OTP4")): Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP4' is clicked on
+
+2022-10-24 13:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP4' is clicked on
+
+2022-10-24 13:37:11 - [TEST_STEP][PASSED] - setText(findTestObject("KayamoSite_Home_Page/input_LogIn_SignUp_verification_code"), verification_code4): Text '2234' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'
+
+2022-10-24 13:37:11 - [MESSAGE][PASSED] - Text '2234' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'
+
+2022-10-24 13:37:11 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/input_LogInSignUp_OTP5")): Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP5' is clicked on
+
+2022-10-24 13:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP5' is clicked on
+
+2022-10-24 13:37:12 - [TEST_STEP][PASSED] - setText(findTestObject("KayamoSite_Home_Page/input_LogIn_SignUp_verification_code"), verification_code5): Text '22345' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'
+
+2022-10-24 13:37:13 - [MESSAGE][PASSED] - Text '22345' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'
+
+2022-10-24 13:37:13 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/input_LogInSignUp_OTP6")): Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP6' is clicked on
+
+2022-10-24 13:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/input_LogInSignUp_OTP6' is clicked on
+
+2022-10-24 13:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("KayamoSite_Home_Page/input_LogIn_SignUp_verification_code"), verification_code6): Text '223456' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'
+
+2022-10-24 13:37:14 - [MESSAGE][PASSED] - Text '223456' is set on object 'Object Repository/KayamoSite_Home_Page/input_LogIn_SignUp_verification_code'
+
+2022-10-24 13:37:14 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/Checkbox_I agree with the terms of use of Kayamo")): Object: 'Object Repository/KayamoSite_Home_Page/Checkbox_I agree with the terms of use of Kayamo' is clicked on
+
+2022-10-24 13:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/Checkbox_I agree with the terms of use of Kayamo' is clicked on
+
+2022-10-24 13:37:15 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/Button_Accept_Terms_Conditions")): Object: 'Object Repository/KayamoSite_Home_Page/Button_Accept_Terms_Conditions' is clicked on
+
+2022-10-24 13:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/Button_Accept_Terms_Conditions' is clicked on
+
+2022-10-24 13:37:15 - [TEST_STEP][PASSED] - click(findTestObject("KayamoSite_Home_Page/Button_Log In Sign Up")): Object: 'Object Repository/KayamoSite_Home_Page/Button_Log In Sign Up' is clicked on
+
+2022-10-24 13:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/KayamoSite_Home_Page/Button_Log In Sign Up' is clicked on
+
+2022-10-24 13:37:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-10-24 13:37:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_133623/KayamoSite_Functional_Tests/KS_TS001_KayamoSite_Home_Page/20221024_133623/1666589836680.png]]
+
+2022-10-24 13:37:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("KayamoSite_Home_Page/error_This verification code has expired"), "This verification code has expired."): Actual text and expected text of test object 'Object Repository/KayamoSite_Home_Page/error_This verification code has expired' are matched.
+
+2022-10-24 13:37:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KayamoSite_Home_Page/error_This verification code has expired' are matched.
+
+2022-10-24 13:37:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-24 13:37:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-24 13:36:41 - [TEST_SUITE][PASSED] - KS_TS001_KayamoSite_Home_Page: Test Cases/KayamoSite_Functional/KS_TC001_Signup_Login_Invalid_Verification_Code]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

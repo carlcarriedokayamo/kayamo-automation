@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BO_TS002_CollectionCenter_View" time="31.66" tests="3" failures="0" skips="0" errors="0">
+   <testsuite name="BO_TS002_CollectionCenter_View" tests="3" failures="0" errors="0" time="31.66" skips="0" timestamp="2022-10-24 16:28:40" hostname="carlcarriedo - 192.168.1.2" id="Test Suites/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_162820/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_162820"/>
+         <property name="logFiles" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_162820/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_162820/execution0.log"/>
+         <property name="attachments" value="/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_162820/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_162820/1666600138752.png, /Users/carlcarriedo/git/kayamo-automation/Reports/20221024_162820/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_162820/1666600139902.png, /Users/carlcarriedo/git/kayamo-automation/Reports/20221024_162820/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_162820/1666600147350.png"/>
+         <property name="hostName" value="carlcarriedo - 192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="a446c160e3cf1fe390fca718094b5ad3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/BackOffice_Functional/BO_Login" time="17.613" classname="Test Cases/BackOffice_Functional/BO_Login" status="PASSED">
+         <system-out><![CDATA[2022-10-24 16:28:41 - [TEST_CASE][PASSED] - Test Cases/BackOffice_Functional/BO_Login: Test Cases/BackOffice_Functional/BO_Login
+
+2022-10-24 16:28:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-10-24 16:28:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-24 16:28:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-24 16:28:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-10-24 16:28:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-10-24 16:28:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-24 16:28:47 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://uat-admin.kayamo.com.ph/auth/login' successfully
+
+2022-10-24 16:28:49 - [MESSAGE][PASSED] - Navigate to 'https://uat-admin.kayamo.com.ph/auth/login' successfully
+
+2022-10-24 16:28:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Username"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 16:28:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 16:28:50 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 16:28:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BackOffice/Login_Logout/input_Username"), username): Text 'kayamo888' is set on object 'Object Repository/BackOffice/Login_Logout/input_Username'
+
+2022-10-24 16:28:51 - [MESSAGE][PASSED] - Text 'kayamo888' is set on object 'Object Repository/BackOffice/Login_Logout/input_Username'
+
+2022-10-24 16:28:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Password"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 16:28:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 16:28:51 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 16:28:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BackOffice/Login_Logout/input_Password"), password): Text 'KingBadger' is set on object 'Object Repository/BackOffice/Login_Logout/input_Password'
+
+2022-10-24 16:28:52 - [MESSAGE][PASSED] - Text 'KingBadger' is set on object 'Object Repository/BackOffice/Login_Logout/input_Password'
+
+2022-10-24 16:28:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/Login_Logout/button_Login")): Object: 'Object Repository/BackOffice/Login_Logout/button_Login' is clicked on
+
+2022-10-24 16:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/Login_Logout/button_Login' is clicked on
+
+2022-10-24 16:28:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BackOffice/Login_Logout/profile_Name"), profile_name): Actual text and expected text of test object 'Object Repository/BackOffice/Login_Logout/profile_Name' are matched.
+
+2022-10-24 16:28:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BackOffice/Login_Logout/profile_Name' are matched.
+
+2022-10-24 16:28:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-10-24 16:28:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_162820/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_162820/1666600138752.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View" time="9.54" classname="Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View" status="PASSED">
+         <system-out><![CDATA[2022-10-24 16:28:59 - [TEST_CASE][PASSED] - Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View: Test Cases/BackOffice_Functional/BO_TC002_CollectionCenter_View
+
+2022-10-24 16:28:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-10-24 16:29:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_162820/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_162820/1666600139902.png]]
+
+2022-10-24 16:29:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/BO_Collection_Center/menu_Collection center")): Object: 'Object Repository/BackOffice/BO_Collection_Center/menu_Collection center' is clicked on
+
+2022-10-24 16:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/BO_Collection_Center/menu_Collection center' is clicked on
+
+2022-10-24 16:29:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/BO_Collection_Center/submenu_All cases")): Object: 'Object Repository/BackOffice/BO_Collection_Center/submenu_All cases' is clicked on
+
+2022-10-24 16:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/BO_Collection_Center/submenu_All cases' is clicked on
+
+2022-10-24 16:29:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number"), loan_number): Text '9849' is set on object 'Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number'
+
+2022-10-24 16:29:05 - [MESSAGE][PASSED] - Text '9849' is set on object 'Object Repository/BackOffice/BO_Collection_Center/input_Loan_Number'
+
+2022-10-24 16:29:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/BO_Collection_Center/button_Search")): Object: 'Object Repository/BackOffice/BO_Collection_Center/button_Search' is clicked on
+
+2022-10-24 16:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/BO_Collection_Center/button_Search' is clicked on
+
+2022-10-24 16:29:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-10-24 16:29:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/carlcarriedo/git/kayamo-automation/Reports/20221024_162820/BackOffice_Functional_Tests/BO_TS002_CollectionCenter_View/20221024_162820/1666600147350.png]]
+
+2022-10-24 16:29:07 - [TEST_STEP][PASSED] - modifyObjectProperty(findTestObject("Object Repository/BackOffice/BO_Collection_Center/table_Loan_Number"), "xpath", "equals", "//*[@text=’${table_loan_number}’]", false): Modify property of object successfully
+
+2022-10-24 16:29:07 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2022-10-24 16:29:07 - [TEST_STEP][PASSED] - text = getText(findTestObject("Object Repository/BackOffice/BO_Collection_Center/table_Loan_Number")): Text of object 'Object Repository/BackOffice/BO_Collection_Center/table_Loan_Number' is: '9849'
+
+2022-10-24 16:29:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/BackOffice/BO_Collection_Center/table_Loan_Number' is: '9849'
+
+2022-10-24 16:29:08 - [TEST_STEP][PASSED] - out.println(text): null
+
+2022-10-24 16:29:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("BackOffice/BO_Collection_Center/table_Loan_Number"), table_loan_number): Actual text and expected text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Loan_Number' are matched.
+
+2022-10-24 16:29:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/BackOffice/BO_Collection_Center/table_Loan_Number' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BackOffice_Functional/BO_Logout" time="2.8" classname="Test Cases/BackOffice_Functional/BO_Logout" status="PASSED">
+         <system-out><![CDATA[2022-10-24 16:29:08 - [TEST_CASE][PASSED] - Test Cases/BackOffice_Functional/BO_Logout: Test Cases/BackOffice_Functional/BO_Logout
+
+2022-10-24 16:29:09 - [TEST_STEP][PASSED] - click(findTestObject("BackOffice/Login_Logout/profile_icon")): Object: 'Object Repository/BackOffice/Login_Logout/profile_icon' is clicked on
+
+2022-10-24 16:29:09 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/Login_Logout/profile_icon' is clicked on
+
+2022-10-24 16:29:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/BackOffice/Login_Logout/profile_logout")): Object: 'Object Repository/BackOffice/Login_Logout/profile_logout' is clicked on
+
+2022-10-24 16:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/BackOffice/Login_Logout/profile_logout' is clicked on
+
+2022-10-24 16:29:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Username"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 16:29:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 16:29:11 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Username' is present
+
+2022-10-24 16:29:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("BackOffice/Login_Logout/input_Password"), 0): Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 16:29:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-24 16:29:11 - [MESSAGE][PASSED] - Object 'Object Repository/BackOffice/Login_Logout/input_Password' is present
+
+2022-10-24 16:29:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-24 16:29:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-24 16:28:40 - [TEST_SUITE][PASSED] - BO_TS002_CollectionCenter_View: Test Cases/BackOffice_Functional/BO_Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
